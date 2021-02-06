@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PHWIS", ".", "{327EFB6F-1BA8-460E-AA26-0A806144D9E7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/PHWIS"
+		Debug.AspNetCompiler.PhysicalPath = "E:\Pirathap\BackUp\PHWIS June16\PHWIS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PHWIS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PHWIS"
+		Release.AspNetCompiler.PhysicalPath = "E:\Pirathap\BackUp\PHWIS June16\PHWIS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PHWIS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3806"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{327EFB6F-1BA8-460E-AA26-0A806144D9E7}.Debug|.NET.ActiveCfg = Debug|.NET
+		{327EFB6F-1BA8-460E-AA26-0A806144D9E7}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

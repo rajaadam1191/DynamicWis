@@ -1,0 +1,811 @@
+﻿body 
+{
+	margin:0px;
+}
+
+.topdiv
+{
+	float:left;
+	top:0px;
+	left:0px;
+	width:100%;
+	background-image:url(../Images/Banner1.jpg);
+	background-repeat:repeat-x;
+	width:100%;
+	height:58px;
+} 
+.botdiv
+{
+	float:left;
+	position: absolute;
+	bottom: -91px;
+	left:2px;
+	width:100%;
+	background-image:url('../Images/bottom.jpg');
+	background-repeat:repeat-x;
+	width:100%;
+	height:23px;
+} 
+.divtoptxt
+{
+	float:left;
+	top:0px;
+	 margin-top:2px;
+	color:#00a8ff;
+	font-family:Arial;
+	font-size:13px;
+	width:100%;
+	 
+}
+.divline
+{
+	float:left;
+	top:0px;
+	 margin-top:85px;
+	 background-color:#ffffff;
+	 
+	 height:1px;
+	width:100%;
+	  position:absolute;
+	left: 0px;
+}
+.divline1
+{
+	float:right;
+	top:0px;
+	margin-top:35px;
+	margin-left:0px;
+	background-color:#043352; 
+	height:20px;
+	
+	width:80%;
+	color :#ffffff; 
+	font-style :normal;
+	font-size :medium ;
+}
+.divtopmenu
+{
+	float:left;
+	left:0px;
+	margin-top:70px;
+	margin-left:10px;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:11px;
+	 position:absolute;
+	top: 18px;
+	width: 132px;
+}
+.divtopArrow
+{
+	float:left;
+	left:0px;
+	margin-top:58px;
+	margin-left:20px;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:11px;
+	 position:absolute;
+	 
+}
+ 
+.divtoptxtsub
+{
+	float:left;
+	top:30px;
+	margin-top:22px;
+	margin-left:10px;
+	color:#4e4e4e;
+	font-family:Arial;
+	font-size:11px;
+}
+.divtoptxtsupt
+{
+	float:left;
+	top:30px;
+	margin-top:22px;
+	margin-left:10px;
+	color:#4e4e4e;
+	font-family:Arial;
+	font-size:11px;
+}
+.divtxt2
+{
+	float:left;
+	top:3px;
+	 margin-top:3px;
+     position: absolute;
+	left: -200px;
+	width: 1029px;
+}
+
+.divT
+{
+	float:left;
+	top:15px;
+	margin-top:140px;
+    position: absolute;
+	left: 320px;
+	width: 386px;
+	right:100;
+	
+}
+
+.divUPage
+{
+	top:35px;
+	margin-top:10px;
+    position: relative;
+	left:330px;
+	width: 386px;
+	right:100px;
+	
+}
+.divUTop
+{
+	float:left;
+	top:32px;
+	margin-top:70px;
+    position: absolute;
+	left:50px;
+	width: 386px;
+	right:100px;
+	color:#54a2c7;
+	
+}
+.divPTop
+{
+	float:left;
+	top:32px;
+	margin-top:100px;
+    position: absolute;
+	left:0px;
+	width: 386px;
+	right:100px;
+	color:#54a2c7;
+	
+}
+.divP
+{
+	float:left;
+	top:15px;
+	margin-top:167px;
+    position: absolute;
+	left: 275px;
+	width: 513px;
+	right:465px;
+	
+}
+.divPart
+{
+	float:left;
+	top:75px;
+	margin-top:120px;
+    position: absolute;
+	left: 31%;
+	width: 513px;
+	right:-297px;
+	
+}
+
+.divProcess
+{
+	float:left;
+	top:97.5px;
+	margin-top:50px;
+    position: absolute;
+	left:20%;
+	width: 513px;
+	right:-100px;
+	left:50px;
+	
+}
+.divProcess1
+{
+	float:left;
+	top:97.5px;
+	margin-top:200px;
+    position: absolute;
+	left:3%;
+	width: 513px;
+	right:-297px;
+	
+}
+.divProcess2
+{
+	float:left;
+	margin-top:470px;
+    position: absolute;
+	left:3%;
+	width: 513px;
+	right:-200px;
+	top:-100px;
+	
+}
+.divProcess3
+{
+	float:left;
+	margin-left:400px;
+    position: absolute;
+	bottom:112px;
+	width: 513px;
+	right:10px;
+	left:0px;
+	top:370px;
+	
+}
+.divProcess4
+{
+	float:left;
+	margin-left:500px;
+    position: absolute;
+	width: 280px;
+	right:10px;
+	left:280px;
+	top:110px;
+	height:auto;
+	
+}
+.divProcess5
+{
+	float:left;
+	margin-left:500px;
+    position: absolute;
+	width: 513px;
+	right:10px;
+	left:30px;
+	top:0px;
+	
+}
+
+
+.divPNo
+{
+	float:left;
+	top:10px;
+	margin-top:120px;
+    position: absolute;
+	left:70px;
+	width: 513px;
+	color:#54a2c7;
+	right:400px;
+	vertical-align:top ;
+	
+	
+}
+
+.divbutton
+{
+	float:left;
+	top:3px;
+	margin-top:30px;
+    position: absolute;
+	left:0px;
+	width: 513px;
+	right:400px;
+	vertical-align:top ;
+	
+	
+}
+
+.divCenter
+{
+	float:left;
+	top:10px;
+	margin-top:45px;
+    position: absolute;
+	left:9%;
+	width: 513px;
+	right:400px;
+	vertical-align:top ;
+	
+	
+}
+.divCenter1
+{
+	float:left;
+	top:245px;
+	margin-top:45px;
+    position: absolute;
+	left:30%;
+	width: 513px;
+	right:409px;
+	vertical-align:top;
+	height: 176px;
+}
+
+.divDMtCenter
+{
+	float:left;
+	top:90px;
+	margin-top:45px;
+    position: absolute;
+	left:-100px;
+	width: 513px;
+	right:409px;
+	vertical-align:top;
+	height: 176px;
+	color:Black ;
+	font-size :12px;
+}
+
+.divDMtCenter1
+{
+	float:left;
+	top:105px;
+	margin-top:30px;
+    position: absolute;
+	left:230px;
+	width: 513px;
+	right:409px;
+	vertical-align:top;
+	height: 176px;
+	color:Black ;
+	font-size :12px;
+}
+.divDMtCenter2
+{
+	float:left;
+	top:-30px;
+	margin-top:30px;
+    position: absolute;
+	left:355px;
+	width: 513px;
+	right:409px;
+	vertical-align:top;
+	height: 176px;
+	color:Black;
+	font-size :12px;
+}
+.divDMtCenter3
+{
+	float:left;
+	top:-10px;
+	margin-top:10px;
+    position: absolute;
+	left:680px;	
+	width: 513px;
+	right:409px;
+	vertical-align:top;
+	height: 176px;
+	color:Black ;	
+	font-size :12px;	
+}
+.divForm1
+{
+	border:1px;
+}
+.divButton
+{
+	float:left;
+	top:105px;
+	margin-top:350px;
+    position: absolute;
+	left:200px;
+	width: 513px;
+	right:409px;
+	vertical-align:top;
+	height: 176px;
+}
+.divtitle
+{	
+	font-family:Arial;
+	color:Black;
+	left:450px;
+	font:40px;
+	font-weight :bold;
+	font-size :larger ;
+	
+	
+}
+.divLocal
+{
+	color:Black ;
+	font-family :Arial;
+	left:450px;
+	
+}
+.divGrid
+{
+	float:left;
+	top:105px;
+	margin-top:350px;
+    position: absolute;
+	left:1500px;
+	width: 513px;
+	right:409px;
+	vertical-align:top;
+	height: 176px;
+	visibility :hidden ;
+	
+}
+.divGrid1
+{
+	float:left;
+	top:-188px;
+	margin-top:350px;
+    position: absolute;
+	left:20px;
+	width:600px;
+	right:409px;
+	vertical-align:top;
+	height: 176px;
+	color:Black ;
+	font-family :Arial;
+
+	
+}
+.divGrid2
+{
+	float:left;
+	top:-72px;
+	margin-top:230px;
+    position: absolute;
+	left:855px;
+	width: 513px;
+	right:6px;
+	vertical-align:top;
+	height: 176px;
+	color:Black;
+	font-family :Arial;
+	
+}
+.divBtnCenter
+{
+	left:50px;
+	height: 176px;
+	color:Black ;
+	font-family :Arial ;
+	
+}
+.divTableCenter
+{
+	float:left;
+	top:-150px;
+	margin-top:380px;
+    position: absolute;
+	left:290px;
+	width: 580px;
+	vertical-align:top;
+	height: 176px;
+	color :Black;
+	font-family :Arial;
+    text-align :center;
+	
+}
+
+.divGridAlign
+{
+	float:left;
+	top:-100px;
+	margin-top:290px;
+    position: absolute;
+	left:370px;
+	width: 513px;
+	right:139px;
+	vertical-align:top;
+	height: 176px;
+	color :Black ;
+	font-family :Arial;
+    text-align :center;
+  
+}
+.divGridAlign1
+{
+	float:left;
+	top:-127px;
+	margin-top:287px;
+    position: absolute;
+	left:400px;
+	width: 513px;
+	right:139px;
+	vertical-align:top;
+	height: 176px;
+	color:Black ;
+	font-family :Arial;
+    text-align :center;
+  
+}
+.divSpeedAlign
+{
+	float:left;
+	top:80px;
+	margin-top:290px;
+    position: absolute;
+	left:15px;
+	width: 513px;
+	right:139px;
+	vertical-align:top;
+	height: 176px;
+	color :Black ;
+	font-family :Arial;
+    text-align :center;
+  
+}
+.divQltyLoss
+{
+	float:left;
+	top:113px;
+	margin-top:270px;
+    position: absolute;
+	left:395px;
+	width: 513px;
+	right:-395px;
+	vertical-align:top;
+	height: 176px;
+	color :Black;
+	font-family :Arial;
+    text-align :center;
+  
+}
+.divUtilTime
+{
+	top:70px;
+	margin-top:490px;
+    position: absolute;
+	left:520px;
+	vertical-align:top;
+	height: 176px;
+	color:Black ;
+	font-family :Arial;
+    text-align :center;
+ 
+    
+  
+}
+.divMCenter
+{
+	float:left;
+	top:20px;
+	margin-top:334px;
+    position: absolute;
+	left:120px;
+	width: 513px;
+	right:139px;
+	vertical-align:top;
+	height: 176px;
+	color:Black ;
+	font-family :Arial;
+    text-align :center;
+  
+}
+.divMCntr1
+{
+	float:left;
+	top:20px;
+	margin-top:-50px;
+    position: absolute;
+	left:-90px;
+	width: 513px;
+	right:139px;
+	vertical-align:top;
+	height: 176px;
+	color:Black ;
+	font-family :Arial;
+    text-align :center;
+  
+}
+.divMCntr2
+{
+	float:left;
+	top:-0px;
+	margin-top:-105px;
+    position: absolute;
+	left:-0px;
+	width: 513px;
+	right:1388px;
+	vertical-align:top;
+	height: 176px;
+	color:Black;
+	font-family :Arial;
+    text-align :center;
+    
+  
+}
+.divMCntr6
+{
+	float:left;
+	top:-338px;
+	margin-top:290px;
+    position: absolute;
+	left:-10px;
+	width: 513px;
+	right:908px;
+	vertical-align:top;
+	height: 176px;
+	color:Black ;
+	font-family :Arial;
+    text-align :center;
+    font-style :normal ;
+    font-weight:normal ;
+  
+}
+.divTemplateCntr
+{
+	float:left;
+	top:20px;
+	margin-top:120px;
+    position: absolute;
+	left:140px;
+	width: 513px;
+	right:139px;
+	vertical-align:top;
+	height: 176px;
+	color:Black ;
+	font-family :Arial;
+    text-align :center;
+    
+  
+}
+
+.divTemplateCntr1
+{
+	float:left;
+	top:20px;
+	margin-top:117px;
+    position: absolute;
+	left:600px;
+	width: 513px;
+	right:139px;
+	vertical-align:top;
+	height: 176px;
+	color:Black ;
+	font-family :Arial;
+    text-align :center;
+    
+    
+  
+}
+
+.divTemplateCntr2
+{
+	float:left;
+	top:20px;
+	margin-top:430px;
+    position: absolute;
+	left:360px;
+	width:513px;
+	right:139px;
+	vertical-align:top;
+	height: 176px;
+	color:Black;
+	font-family :Arial;
+    text-align :center;
+    
+}
+.cssColor
+{
+	font-family:Arial;
+	color :#fdfff0;
+	background-color :#fdfff0;
+}
+.cssTitle
+{
+	font-family:Arial;
+	color :#0000ff;
+	background-color :#0000ff;
+}
+.divtotCntr
+{
+	float:left;
+	top:20px;
+	margin-top:50px;
+    position: absolute;
+	left:20px;
+	width:513px;
+	right:139px;
+	vertical-align:top;
+	height: 176px;
+	color:Black;
+	font-family :Arial;
+    text-align :center;
+    
+}
+.cssTitle1
+{
+	color:Black;
+	font-family :Arial;
+	text-align :center ;
+  
+	
+}
+.cssTitle3
+{
+	color:black;
+	font-family :Arial;
+	text-align :left;
+	font-weight :normal ;
+	font-style :normal ;	
+}
+.cssTitle4
+{
+	float:left;
+	top:20px;
+	margin-top:-8px;
+    position: absolute;
+	left:-0px;
+	width:513px;
+	right:139px;
+	vertical-align:top;
+	height: 176px;
+	color:Black;
+	font-family :Arial;
+    text-align :center;
+}
+.divbtncenter
+{
+	float:left;
+	top:20px;
+	margin-top:-30px;
+    position: absolute;
+	left:0px;
+	width:513px;
+	right:139px;
+	vertical-align:top;
+	height: 176px;
+	color:Black;
+	font-family :Arial;
+    text-align :center;
+}
+.cssTitle6
+{
+	color:Black ;
+	font-family :Arial;
+	font-size :small ; 	
+}
+.divFirstTab1
+{
+	color:Black ;
+	font-family :Arial;
+	font-size :small ;   
+}
+.HPlable
+{
+	font-size:15px;
+			font-family:Arial;
+		 color:#000;
+		 text-align:right;
+}
+.HPtextbox
+{
+	Width:142px;
+			  Height:20px;
+			  border:solid 1px #0b5aa3;
+}
+.HPdropdown
+{
+	Width:147px;
+			  Height:20px;
+			  border:solid 1px #0b5aa3;
+}
+.HPtextarea
+{
+	height:50px;
+	width:443px;
+	border:solid 1px #0b5aa3;
+}
+.dmt_textbox
+{
+	width:180px;
+	Height:20px;
+	border:solid 1px #0b5aa3;
+	
+}
+.tabdropdown1
+{
+  width:180px;
+	Height:20px;
+	border:solid 1px #0b5aa3;
+}
+.Dmtlable
+{
+	font-size:15px;
+			font-family:Arial;
+		 color:#000;
+		 text-align:left;
+}
+.grid
+{
+	border: solid 1px #c3d3da;
+	
+}

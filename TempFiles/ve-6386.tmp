@@ -1,0 +1,77 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="RoutingsFrm.aspx.cs" Inherits="RoutingsFrm" Title="Untitled Page" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
+
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    
+ <div id ="divcolor" class="divtotCntr">
+ <br />
+ <br />
+ <br />
+  <br />
+   <br />
+    <cc1:TabContainer ID="TabContainer1" runat="server" ActiveTabIndex="0" 
+         Width="1300px" Height ="400px">
+        <cc1:TabPanel runat="server" HeaderText="TabPanel1" ID="TabPanel1" CssClass="cssColor" BackColor="#0f7fc8">
+        <HeaderTemplate ><p id ="csstitle" class="cssTitle" >TIME TEMPLATE </p>
+        
+        
+        </HeaderTemplate>
+        
+<ContentTemplate ><div id="divgrd" class ="divGrid1"><p>WORKING TIME </p><table border="1" style="width: 375px"><tr><td><asp:Label ID="Label2" runat="server" Text="PART NO"></asp:Label></td><td style="width: 161px"><asp:DropDownList ID="DropPartNo" runat="server" Height="16px" Width ="150px"></asp:DropDownList>&#160;</td></tr><tr><td><asp:Label ID="Label3" runat="server" Text="OPERATION"></asp:Label></td><td style="width: 161px">
+    <asp:DropDownList ID="DropOperation" runat="server" Height="16px" 
+        Width ="150px" onselectedindexchanged="DropOperation_SelectedIndexChanged"></asp:DropDownList>&#160;</td></tr><tr><td><asp:Label ID="DateTime" runat="server" Text="DATE TIME"></asp:Label></td><td style="width: 161px"><asp:TextBox ID="TxtDateTime" runat="server" Width ="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label1" runat="server" Text="SHIFT"></asp:Label></td><td style="width: 161px"><asp:DropDownList ID="DropShift" runat="server" Width ="147px" 
+        Height="16px"><asp:ListItem>A</asp:ListItem><asp:ListItem>B</asp:ListItem><asp:ListItem>G</asp:ListItem></asp:DropDownList></td></tr><tr><td><asp:Label ID="Label5" runat="server" Text="FROM TO" ></asp:Label></td><td style="width: 161px"><asp:TextBox ID="TxtFromTo" runat="server"  Width ="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label6" runat="server" Text="OPERATOR NAME"></asp:Label></td><td style="width: 161px"><asp:TextBox ID="TxtOperatorName" runat="server"  Width ="150px"></asp:TextBox></td></tr></table></div><div id="divGrd2" class="divGridAlign1"><table border ="1"><caption><p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; PLANNED STOPS (MINUTES)</p><tr><td><asp:Label ID="Label4" runat="server" 
+                    Text="PREVENTIVE MAINTENANCE AND CLEANING"></asp:Label></td><td><asp:TextBox ID="TXTPreventive" runat="server" Width="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label7" runat="server" Text="LUNCH/TEA/COFFEE TIME"></asp:Label></td><td><asp:TextBox ID="Txtbreak" runat="server" Width="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label8" runat="server" Text="NO PLAN/DEMAND"></asp:Label></td><td><asp:TextBox ID="TxtPlan" runat="server" Width="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label9" runat="server" Text="PLANNED MANUFACTURING ENGG TRAILS"></asp:Label></td><td><asp:TextBox ID="TxtPlannedEngg" runat="server" Width="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label10" runat="server" Text="MEETINGS"></asp:Label></td><td><asp:TextBox ID="TxtMeetings" runat="server" Width="150px" 
+                    ontextchanged="TxtMeetings_TextChanged"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label40" runat="server" Text="PRODUCTION QTY"></asp:Label></td><td><asp:TextBox 
+            ID="TxtProductionQty" runat="server" 
+            ontextchanged="TxtProductionQty_TextChanged"></asp:TextBox></td></tr></caption></table></div><div id ="DivGrd1" class ="divGrid2"><p>DOWN TIME LOSS</p><table border ="1"><tr><td><asp:Label ID="Label11" runat="server" Text="EQUIPMENT BREAKDOWN/FAILURE"></asp:Label></td><td><asp:TextBox ID="TxtEquipment" runat="server" Width ="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label12" runat="server" Text="UNPLANNED MAINTENANCE"></asp:Label></td><td><asp:TextBox ID="TxtUnplanned" runat="server" Width ="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label13" runat="server" Text="SETUP/CHANGE OVER"></asp:Label></td><td><asp:TextBox ID="TxtChangeOver" runat="server" Width ="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label14" runat="server" Text="MATERIAL SHORTAGES/DELAY"></asp:Label></td><td><asp:TextBox ID="TxtDelay" runat="server" Width ="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label15" runat="server" Text="OPERATOR STORTAGES"></asp:Label></td><td><asp:TextBox ID="TxtOpStortages" runat="server" Width ="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label16" runat="server" Text="NOT PLANNED MANUF ENGG TRIALS"></asp:Label></td><td><asp:TextBox ID="TxtNotPlanned" runat="server" Width ="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label17" runat="server" Text="QUALITY ISSUES"></asp:Label></td><td><asp:TextBox ID="TxtQtyIssues" runat="server" Width ="150px" 
+                            ontextchanged="TxtQtyIssues_TextChanged1"></asp:TextBox></td></tr></table></div><div id="divSpeedAlign" class="divSpeedAlign"><div id ="divMCntr" class ="divMCntr1"><br/><br /><p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;SPEED LOSS </p></div><br /><br /><table border="1" style="width: 378px"><tr><td><asp:Label ID="Label20" runat="server" Text="MINOR BREAKDOWN"></asp:Label></td><td><asp:TextBox ID="TxtMinorBreakdown" runat="server" Width ="200px" Height="18px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label19" runat="server" Text="DUE TO BOTTLE NECK TIME"></asp:Label></td><td><asp:TextBox ID="TxtbottleNeckTime" runat="server" Width ="150px" 
+                       ontextchanged="TxtbottleNeckTime_TextChanged"></asp:TextBox></td></tr></table></div><div id ="DivQtyLoss" class="divQltyLoss"><div id ="divcntr6" class="divMCntr6"><br /><br/><p>QUALITY LOSS</p></div><br /><table border ="1" style="width: 453px; height: 72px;"><tr><td><asp:Label ID="Label18" runat="server" Text="REJECTION"></asp:Label></td><td><asp:TextBox ID="TxtRejection" runat="server" Width ="150px"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label21" runat="server" Text="CMM INSPECTION"></asp:Label></td><td><asp:TextBox ID="TxtCMMInspection" runat="server" Width ="150px" 
+                                                ontextchanged="TxtCMMInspection_TextChanged"></asp:TextBox></td></tr></table></div><div id ="DivUtilTime" class="divUtilTime"><div id ="divCntr2" class ="divMCntr2"><br /><p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;UTILE TIME</p><br/></div><table border="1" style="width:405px; height: 44px;"><tr><td>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <asp:Label ID="Label22" runat="server" Text="UTIL TIME(HOURS)"></asp:Label></td><td><asp:TextBox ID="TxtUtilTime" runat="server" Width ="150px" Height="20px" 
+                                                 style="margin-left: -0px"></asp:TextBox></td></tr></table></div><div id ="divbtn" class ="divBtnCenter "><table align="center" ><tr><td>&#160;&#160;&#160;<asp:Label ID="lblresult" runat="server" Text="Label"></asp:Label></td></tr></table><br /><br /><center >&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;<asp:ImageButton ID="ImageButton1" runat="server" 
+        ImageUrl="~/Images/save.jpg" onclick="ImageButton1_Click" /></center></div></div>
+            
+            
+            </ContentTemplate>
+        
+</cc1:TabPanel>
+     
+   <cc1:TabPanel ID="TabPanel2" runat="server" HeaderText="TabPanel2" Visible ="false" >
+      <HeaderTemplate>CALCULATION
+      
+        
+        </HeaderTemplate>
+     
+<ContentTemplate ><div><table ><tr><td><asp:Label ID="Label23" runat="server" Text="Tt TOTAL TIME(HOURS)"></asp:Label></td><td><asp:TextBox ID="TxtTt" runat="server"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label24" runat="server" Text="PLANNED CLOSING TIME(HOURS)"></asp:Label></td><td><asp:TextBox ID="TxtPlannedClosing" runat="server"></asp:TextBox></td></tr></table></div>
+     
+        </ContentTemplate> 
+     
+</cc1:TabPanel> 
+        <cc1:TabPanel ID="TabPanel3" runat="server" HeaderText="TabPanel3">
+         <HeaderTemplate >TEMPLATE
+        
+        
+        </HeaderTemplate>
+        
+<ContentTemplate ><div id ="divTempCntr" class="divTemplateCntr"><center><br /><br /><br /><table border ="1"><tr><td><asp:Label ID="Label25" runat="server" Text="Tt TOTAL TIME(HOURS)"></asp:Label></td><td><asp:TextBox ID="TextTt" runat="server"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label26" runat="server" Text="PLANT CLOSING TIME(HOURS)"></asp:Label></td><td><asp:TextBox ID="TxtPlantClosing" runat="server"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label27" runat="server" Text="To OPENED TIME(Hours)"></asp:Label></td><td><asp:TextBox ID="TxtOpenedTime" runat="server" 
+                ontextchanged="TxtOpenedTime_TextChanged"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label28" runat="server" Text="PLANNED STOPS(Hours)"></asp:Label></td><td><asp:TextBox ID="TxtPlannedStops" runat="server"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label29" runat="server" Text="Tr REQUIRED TIME(Hours)"></asp:Label></td><td><asp:TextBox ID="TxtReqtime" runat="server" OnTextChanged="TxtReqtime_TextChanged"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label30" runat="server" Text="DOWN TIME LOSS(HOURS)"></asp:Label></td><td><asp:TextBox ID="TxtDownTimeLoss" runat="server"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label31" runat="server" Text="Tf FUNCTIONING TIME(HOURS)"></asp:Label></td><td><asp:TextBox ID="TxtFunctionTime" runat="server"></asp:TextBox></td></tr></table></center></div><div id ="divtemplatecntr" class ="divTemplateCntr1"><br /><br /><br /><table border ="1"><tr><td><asp:Label ID="Label32" runat="server" Text="SPEED LOSS(HOURS)"></asp:Label></td><td><asp:TextBox ID="TxtSpeedLoss" runat="server"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label33" runat="server" Text="Tn NET OPERATING TIME(HOURS)"></asp:Label></td><td><asp:TextBox ID="TxtNetOpTime" runat="server"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label34" runat="server" Text="QUALITY LOSS(HOURS)"></asp:Label></td><td><asp:TextBox ID="TxtQualityloss" runat="server"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label35" runat="server" Text="Tu UTILE TIME(HOURS)"></asp:Label></td><td><asp:TextBox ID="TxtUtileTime" runat="server" 
+                ontextchanged="TxtUtileTime_TextChanged"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label36" runat="server" Text="TRS"></asp:Label></td><td><asp:TextBox ID="TxtTRS" runat="server"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label37" runat="server" Text="TRG"></asp:Label></td><td><asp:TextBox ID="TxtTRG" runat="server"></asp:TextBox></td></tr><tr><td><asp:Label ID="Label38" runat="server" Text="TOTAL STOP(HOURS)"></asp:Label></td><td><asp:TextBox 
+        ID="TxtTotalStop" runat="server" ontextchanged="TxtTotalStop_TextChanged"></asp:TextBox></td><tr><td><asp:Label ID="Label39" runat="server" Text="UTIL TIME Tu + TOTAL STOP(HOURS)"></asp:Label></td><td><asp:TextBox ID="TxtTotalStophours" runat="server"></asp:TextBox></td></tr></tr></table></div><div id ="divtemplateCenter" class ="divTemplateCntr2"><center ><table><caption></caption></table></center></div>
+                </ContentTemplate>      
+                    </cc1:TabPanel>
+                      
+           
+            </cc1:TabContainer>
+            <br />
+            <br />
+ 
+       </div>
+</asp:Content>
+

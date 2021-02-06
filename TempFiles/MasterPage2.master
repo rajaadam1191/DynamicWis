@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table cellpadding="0px" cellspacing="0px" border="0px" align="center" width="100%">
+            <tr>
+                <td align="center">
+                    <div class="topdiv">
+                        <div class="divtoptxt">
+                            Poclain Hydraulics<span style="color: #c5d0d7; font-family: Arial; font-size: 11px;">(WORK
+                                INSTRUCTION)</span></div>
+                        <div id="top_Bar" class="divtoptxtsub">
+                            <a href="#" style="font-family: Arial; color: #4e4e4e; font-size: 11px; text-decoration: none"
+                                onclick="load_songlist('Default.aspx','20px')">MASTER</a>
+                        </div>
+                        <div id="Div2" class="divtoptxtsupt">
+                            |
+                        </div>
+                        <div id="Div1" class="divtoptxtsub">
+                            <a href="#" style="font-family: Arial; color: #4e4e4e; font-size: 11px; text-decoration: none"
+                                onclick="load_songlist('Default2.aspx','100px')">TRANSACTION</a>
+                        </div>
+                         <div id="Div3" class="divtoptxtsupt">
+                            |
+                        </div>
+                         <div id="Div4" class="divtoptxtsub">
+                            <a href="#" style="font-family: Arial; color: #4e4e4e; font-size: 11px; text-decoration: none"
+                                onclick="load_songlist('Default2.aspx','175px')">REPORT</a>
+                        </div>
+                        <div id="divArrow" class="divtopArrow">
+                            <img src="Images/arrow.png" /></div>
+                        <div class="divtopmenu">
+                            <div>
+                                PART NO&nbsp;&nbsp; /&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PROCESS</div>
+                        </div>
+                        <div class="divline">
+                        </div>
+                    </div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <div class="botdiv">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

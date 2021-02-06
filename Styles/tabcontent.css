@@ -1,0 +1,117 @@
+﻿/* Tab Content - menucool.com */
+
+ul.tabs
+{
+    padding: 7px 0;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: left; 
+}
+        
+ul.tabs li
+{
+    display: inline;
+    margin: 0;
+    margin-right:3px; /*distance between tabs*/
+    background-color:#ffffff;
+}
+        
+ul.tabs li a
+{
+    font: normal 12px Verdana;
+    text-decoration: none;
+    position: relative;
+    padding: 7px 16px;
+    border: 1px solid #CCC;
+    border-bottom-color:#B7B7B7;
+    color: #000;
+    background:#ffffff;
+    border-radius: 3px 3px 0 0;
+    outline:none;
+}
+        
+ul.tabs li a:visited
+{
+    color: #000;
+}
+        
+ul.tabs li a:hover
+{
+    border: 1px solid #4c6c9f;
+    background:#eefaff url(tabbg.gif) 0 -36px repeat-x;
+    color:Black;
+}
+        
+ul.tabs li.selected a, ul.tabs li.selected a:hover
+{
+    position: relative;
+    top: 0px;
+    font-weight:bold;
+    background:#315881;
+    border: 1px solid #;
+    border-bottom-color: white;
+    color:White;
+}
+        
+        
+ul.tabs li.selected a:hover
+{
+    text-decoration: none;
+}
+     
+
+div.tabcontents
+{
+    border: 1px solid #4c6c9f; padding: 30px;
+    background-color:#eefaff;
+    border-radius: 0 3px 3px 3px;
+    height:auto;
+}
+.tabdropdown
+{
+	Width:170px;
+			  Height:20px;
+			  border:solid 1px #4c6c9f;
+}
+.tabtextbox
+{
+	Width:142px;
+			  Height:20px;
+			  border:solid 1px #4c6c9f;
+}
+.tabtextbox1
+{
+	Width:170px;
+			  Height:20px;
+			  border:solid 1px #4c6c9f;
+}
+.tablabel
+{
+	font-size:14px;
+			font-family:Arial;
+		 color:#000;
+		 text-align:left;
+		 font-weight:bold;
+}
+.divlabel
+{
+	font-family:Arial;
+	font-weight:bold;
+	font-size:14px;
+	text-align:left;
+}
+.downtimetext
+{
+    font-family:Arial;
+    font-size:14px;
+     text-align:left;
+     color:White;
+     font-weight:bold;
+}
+.borderstyle
+{
+     border-bottom: solid 1px #c3d3da;
+     
+}
+

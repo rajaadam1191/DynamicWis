@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Hydrolab29-5-2014", "..\..\Hydrolab29-5-2014\", "{4976A1DA-6DFF-4C5A-A0A8-58DD5C018807}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Hydrolab29-5-2014"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Hydrolab29-5-2014\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Hydrolab29-5-2014\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Hydrolab29-5-2014"
+		Release.AspNetCompiler.PhysicalPath = "D:\Hydrolab29-5-2014\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Hydrolab29-5-2014\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4478"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4976A1DA-6DFF-4C5A-A0A8-58DD5C018807}.Debug|.NET.ActiveCfg = Debug|.NET
+		{4976A1DA-6DFF-4C5A-A0A8-58DD5C018807}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

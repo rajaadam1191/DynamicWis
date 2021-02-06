@@ -1,0 +1,172 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>PH WORK INSTRUCTION</title>
+    <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table cellpadding="0px" cellspacing="0px" border="0px" align="center" width="100%"
+            style="height: 80%">
+            <tr>
+                <td align="center">
+                    <div class="topdiv">
+                        <div class="divtoptxt">
+                            Poclain Hydraulics<span style="color: #000000; font-family: Arial; font-size: 11px;">(WORK
+                                INSTRUCTION)</span></div>
+                        <div id="top_Bar" class="divtoptxtsub">
+                            <a href="#" style="font-family: Arial; color: #000000; font-size: 11px; text-decoration: none"
+                                onclick="load_songlist('Userpage.aspx','20px')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MASTERS
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        </div>
+                        <div id="Div2" class="divtoptxtsupt">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                        </div>
+                        <div id="Div1" class="divtoptxtsub">
+                            <a href="#" style="font-family: Arial; color: #000000; font-size: 11px; text-decoration: none"
+                                onclick="load_songlist('Userpage.aspx','20px')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                TRANSACTIONS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <%--<a href="Userpage.aspx" > VIEW Work Instruction </a>--%>
+                        </div>
+                        <div id="Div3" class="divtoptxtsupt" align="right">
+                            &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+                        </div>
+                        <div id="Div4" class="divtoptxtsub">
+                            <a href="QualityGrid.aspx" style="font-family: Arial; color: #000000; font-size: 11px;
+                                text-decoration: none" onclick="load_songlist('Default2.aspx','175px')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                QC</a><br />
+                            <br />
+                           <%-- <a href="QualityGrid.aspx" style="font-family: Arial; color: Black; font-size: 11px;
+                                text-decoration: none" onclick="load_songlist('PartnoMaster.aspx','20px')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QC
+                                SHEET&nbsp;&nbsp;&nbsp;|</a>&nbsp;&nbsp; --%>|<a href="ViewQCSheetReports.aspx" style=" cursor:pointer; font-family: Arial;
+                                    color: Black; font-size: 11px; text-decoration: none" onclick="load_songlist('PartnoMaster.aspx','20px')">
+                                    QC VIEW&nbsp;&nbsp;&nbsp;|</a> <a href="ViewQChart.aspx" style="font-family: Arial;cursor:pointer;
+                                        color: Black; font-size: 11px; text-decoration: none" onclick="load_songlist('PartnoMaster.aspx','20px')">
+                                        QC CHART&nbsp;&nbsp;&nbsp;|</a><a href="RegisrationFrm.aspx" style="font-family: Arial;cursor:pointer;
+                                        color: Black; font-size: 11px; text-decoration: none" onclick="load_songlist('PartnoMaster.aspx','20px')">
+                                        USER REGISTRATION&nbsp;&nbsp;&nbsp;</a>
+                        </div>
+                        |
+                        <div id="Div6" class="divtoptxtsupt">
+                        </div>
+                        <div id="Div8" class="divtoptxtsub">
+                            <a href="RoutingsFrm.aspx" style="font-family: Arial; color: #000000; font-size: 11px;
+                                visibility: hidden; text-decoration: none">EFFICIENCY CALCULUS</a>
+                        </div>
+                        <div id="Div9" class="divtoptxtsupt">
+                        </div>
+                        <div id="Div7" class="divtoptxtsub">
+                            <a href="DMTRptFrm.aspx" style="font-family: Arial; color: #000000; font-size: 11px;
+                                text-decoration: none" onclick="load_songlist('RoutingsFrm.aspx','175px')">&nbsp;&nbsp;&nbsp;&nbsp;REPORTS</a><br />
+                            <br />
+                            <a href="#" style="font-family: Arial; color: #ffffff; font-size: 11px; text-decoration: none"
+                                onclick="load_songlist('PartnoMaster.aspx','20px')"></a>&nbsp; &nbsp; <a href="OEERptFrm.aspx"
+                                    style="font-family: Arial; color: Black; font-size: 11px; text-decoration: none"
+                                    onclick="load_songlist('PartnoMaster.aspx','20px')">OEE REPORT </a>&nbsp;
+                            | &nbsp; <a href="DMTRptFrm.aspx" style="font-family: Arial; color: Black; font-size: 11px;
+                                text-decoration: none" onclick="load_songlist('PartnoMaster.aspx','20px')">DMT REPORT
+                            </a>&nbsp; | &nbsp; <a href="HourlyProductionRpt.aspx" style="font-family: Arial;
+                                color: Black; font-size: 11px; text-decoration: none" onclick="load_songlist('PartnoMaster.aspx','20px')">
+                                HOURLY REPORT </a>
+                        </div>
+                        <div id="Div12" class="divtoptxtsub">
+                            <a href="index.aspx" style="font-family: Arial; color: #000000; font-size: 11px;
+                                text-decoration: none" onclick="load_songlist('','175px')">|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                LOG OUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br />
+                            <br />
+                            <a href="Userpage.aspx" style="font-family: Arial; color: #000000; font-size: 11px;
+                                text-decoration: none" onclick="load_songlist('','175px')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USER
+                                LOGIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br />
+                            <br />
+                        </div>
+                        <%--<div id="Div13" class="divtoptxtsub">
+                            <a href="Userpage.aspx" style="font-family: Arial; color: #000000; font-size: 11px; text-decoration: none"
+                                onclick="load_songlist('','175px')"> |&nbsp;USER LOGIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br /><br />
+                                
+                               
+                              
+                             
+                        </div>--%>
+                        <div id="Div5" class="divtoptxtsub">
+                            <a href="#" style="font-family: Arial; color: #fdfff0; font-size: 11px; text-decoration: none"
+                                onclick="load_songlist('Default2.aspx','175px')"></a>
+                        </div>
+                        <div id="Div10" class="divtoptxtsub">
+                            <a href="OEERptFrm.aspx" style="font-family: Arial; color: #000000; font-size: 11px;
+                                text-decoration: none" onclick="load_songlist('RoutingsFrm.aspx','175px')"></a>
+                        </div>
+                        <div id="Div11" class="divtoptxtsub">
+                            <a href="#" style="font-family: Arial; color: #000000; font-size: 11px; text-decoration: none"
+                                onclick="load_songlist('Default2.aspx','175px')"></a>
+                        </div>
+                        <div>
+                        </div>
+                        <div id="divArrow" class="divtopArrow">
+                            <%-- <img src="Images/arrow.png" />--%>
+                            <div id="divtxt2" class="divtxt2" style="margin-top:-20px;">
+                                <a href="PartnoMaster.aspx" style="font-family: Arial; color: #000000; font-size: 11px;
+                                    text-decoration: none" onclick="load_songlist('PartnoMaster.aspx','20px')">&nbsp;&nbsp;PART
+                                    NO &nbsp;&nbsp;| </a>&nbsp;&nbsp; /&nbsp;&nbsp;<a href="Process.aspx" style="font-family: Arial;
+                                        color: #000000; font-size: 11px; text-decoration: none" onclick="load_songlist('Process.aspx','20px')">PROCESS
+                                        &nbsp;&nbsp;|</a>&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;<a href="Time_Master.aspx" style="font-family: Arial;
+                                            color: #4e4e4e; font-size: 11px; text-decoration: none" onclick="load_songlist('Process.aspx','20px')">TIME
+                                            MASTER</a>&nbsp;&nbsp;&nbsp; <a href="Userpage.aspx" style="font-family: Arial; color: Black;
+                                                font-size: 11px; visibility: hidden; text-decoration: none" onclick="load_songlist('PartnoMaster.aspx','20px')">
+                                                &nbsp;USER PAGE</a>&nbsp; /&nbsp;&nbsp;<a href="Workinstruction.aspx" style="font-family: Arial;
+                                                    color: #000000; font-size: 11px; text-decoration: none" onclick="load_songlist('Process.aspx','20px')">WORK
+                                                    INSTRUCTION &nbsp;&nbsp;&nbsp;|</a>&nbsp; | &nbsp;<a href="DMTTemplate.aspx" style="font-family: Arial;
+                                                        color: #000000; font-size: 11px; text-decoration: none" onclick="load_songlist('DMTTemplate.aspx','20px')">DMT
+                                                        TEMPLATE</a> &nbsp; | &nbsp;<a href="HourlyProduction.aspx" style="font-family: Arial;
+                                                            color: #000000; font-size: 11px; visibility: hidden; text-decoration: none" onclick="load_songlist('DMTTemplate.aspx','20px')">HOURLY
+                                                            PRODUCTION </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%--<a href="RoutingsFrm.aspx" style="font-family: Arial; color: #ffffff; font-size: 11px; text-decoration: none"
+                                 onclick="load_songlist('RoutingsFrm.aspx','20px')">EFFICIENCY   </a>--%>
+                                <%-- <a href= "QualitySheet.aspx" style="font-family: Arial; color: #ffffff; font-size: 11px; text-decoration: none"
+                                 onclick="load_songlist('PartnoMaster.aspx','20px')">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; QC SHEET</a>--%>
+                                <%--<a href= "QualitySheet.aspx"></a>--%>
+                            </div>
+                            <%--  <img src="Images/arrow.png" />--%></div>
+                        <div class="divtopmenu">
+                            <%--  <div>
+                                 <a href="PartnoMaster.aspx" style="font-family: Arial; color: #ffffff; font-size: 11px; text-decoration: none"
+                                 onclick="load_songlist('PartnoMaster.aspx','20px')">PART NO</a>
+                                 &nbsp;&nbsp; /&nbsp;&nbsp;&nbsp;&nbsp;<a href="Process.aspx" style="font-family: Arial; color: #ffffff; font-size: 11px; text-decoration: none"
+                                 onclick="load_songlist('Process.aspx','20px')">PROCESS</a>  
+                               </div>--%>
+                        </div>
+                        <div class="divline">
+                        </div>
+                        <%-- <div class ="divline1">
+                      
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button1" runat="server" Text="Instruction" Font-Bold ="true" CssClass BackColor ="#ffffff"    />
+                           
+                      
+                       </div>--%>
+                        <br />
+                    </div>
+                    <div>
+                    </div>
+                    <br />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/arrow.png" OnClick="ImageButton1_Click"
+                            Style="height: 14px" />
+                    </asp:ContentPlaceHolder>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        <p>
+                            <br />
+                        </p>
+                        <p>
+                        </p>
+                    </asp:ContentPlaceHolder>
+                    <%--  <div class="botdiv">
+                    </div>--%>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

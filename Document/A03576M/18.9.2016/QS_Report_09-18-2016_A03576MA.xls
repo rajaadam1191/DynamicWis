@@ -1,0 +1,670 @@
+<DIV>
+<TABLE bgColor=#eefaff>
+<TBODY>
+<TR>
+<TD>
+<DIV style="WIDTH: auto">
+<TABLE style="BORDER-COLLAPSE: collapse" border=1 cellPadding=0 bgColor=#eefaff>
+<TBODY>
+<TR style="HEIGHT: 17pt">
+<TD style="HEIGHT: 60pt" class=style3 vAlign=top rowSpan=1 colSpan=1 align=left><IMG alt="" src="http://localhost:1048/Dynamic/Menu_image/PH-logo-1.jpg" width=232 height=136> </TD>
+<TD class=style56 height=138 rowSpan=1 colSpan=1>
+<DIV style="MARGIN-TOP: 30px"><SPAN style="TEXT-ALIGN: right; FONT-STYLE: italic; FONT-SIZE: 16px; FONT-WEIGHT: bold">PRODUCT PN : <SPAN id=spn_prdpin1>A03576M</SPAN></SPAN><BR><SPAN style="TEXT-ALIGN: left; FONT-STYLE: italic; FONT-SIZE: 16px; FONT-WEIGHT: bold">DESIGNATION : BCYL-MS02-AR-NG </SPAN><BR><SPAN style="TEXT-ALIGN: left; FONT-STYLE: italic; FONT-SIZE: 16px; FONT-WEIGHT: bold">MACHINE: <SPAN id=spn_mach1>HMC1</SPAN></SPAN><BR><SPAN style="TEXT-ALIGN: left; FONT-STYLE: italic; FONT-SIZE: 16px; FONT-WEIGHT: bold">MACHINE NUMBER: M24 001/ 002N1</SPAN><BR></DIV></TD></TR></TBODY></TABLE></DIV></TD>
+<TD>
+<DIV>
+<TABLE>
+<TBODY>
+<TR>
+<TD class=style2 colSpan=20>The sheets of this document should remain together at the Workstation </TD></TR>
+<TR class=style2>
+<TD style="TEXT-ALIGN: left; COLOR: #0b7dc6; FONT-SIZE: 100px" colSpan=20>
+<DIV style="MARGIN-TOP: -5px" align=center>QUALITY SHEET</DIV></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV id=div_sheetheader>
+<DIV>
+<TABLE style="BORDER-COLLAPSE: collapse" width="100%">
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #4c6c9f; WIDTH: 500px; COLOR: #fff" class=style58 colSpan=6><SPAN>Instruments</SPAN> </TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">PISTON BORE DIAMETER#1</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>MARPOSS GUAGE</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">PISTON BORE DIAMETER#8</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>MARPOSS GUAGE</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">PISTON BORE DIAMETER#1</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>MORPOSS GUAGE</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">PISTON BORE DIAMETER#8</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>MARPOSS GUAGE</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">ROUGHNESS TESTER BORE#1</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>ROUGHNESS TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">ROUGHNESS TESTER#8</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>ROUGHNESS TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">DISTRIBUTION FACE ASPECT</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>VISUAL</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">CYLINDRICITY BIG PISTON BORE # 1</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>MAHR ROUNDNESS TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">CYLINDRICITY BIG PISTON BORE # 4</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>MAHR ROUNDNESS TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">CLIP HOLE # 1 DIAMETER</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>PLUG GUAGE</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 406px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=2>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">SURFACE FININSH SMALL PISTION BORE#1</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>ROUGHNESS TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 406px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=2>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">SURFACE FININSH SMALL PISTION BORE#4</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>ROUGHNESS TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">BIG PISTON BORE REAMER DEPTH MAX/MIN</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>CMM</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">CLIP HOLE DEPTH</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>PIN GAUGE</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">PISTON BORE CENTER FROM PLANE B</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>CMM</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">SMALL PISTON BORE DEPTH</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>CMM</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">BORE TAPER (ACTIVE FACE) TOP TO BOTTOM</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>BORE GAUGE</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">ALL PISTON BORE DEPTH MAX/MIN</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>CMM</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">BIG PISTON BORE ENTRY CHAMFER -ANY</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>PROFILE TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">SMALL PISTON BORE ENTRY CHAMFER - ANY BORE</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>PROFILE TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">CONCENTRICITY BORE #1</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>MAHR ROUNDNESS TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">CONCENTRICITY BORE #4</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>MAHR ROUNDNESS TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">Ø DISTRIBUTION HOLE DIAMETERR BORE #1</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>GO_NOGO GAGE</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">Ø DISTRIBUTION HOLE PCD</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>CMM</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">DISTRIBUTION HOLE POSITION W.R.T C,P</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>CMM</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">RADIUS ON BIG PISTON BORE CHAMFER BORE #ANY BORE</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>PROFILE TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">RADIUS ON BIG PISTON BORE CHAMFER BORE #ANY BORE</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>PROFILE TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">RADIUS ON SMALL PISTON BORE CHAMFER BORE #ANY BORE</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>PROFILE TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">RADIUS ON SMALL PISTON BORE CHAMFER BORE #ANY BORE</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>PROFILE TESTER</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">FREE FROM BURR ON THE BIG PISTON BORE CHAMFER</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>VISUAL</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">FREE FROM CONNECTION HOLE BURR</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>VISUAL</SPAN></DIV></TD>
+<TD style="BORDER-BOTTOM: #fff 1.6px solid; TEXT-ALIGN: center; BORDER-LEFT: #fff 1.6px solid; WIDTH: 203px; HEIGHT: 16pt; COLOR: #fff; BORDER-TOP: #fff 1.6px solid; BORDER-RIGHT: #fff 1.6px solid" class=styleHDR colSpan=1>
+<DIV style="BORDER-BOTTOM: #fff 1px solid"><SPAN style="COLOR: #ffe4c4">FREE FROM BURR ON THE ENTRY OF DISTRIBUTION HOLE</SPAN></DIV>
+<DIV><SPAN style="COLOR: #faf0e6" id=span1_undefined span>VISUAL</SPAN></DIV></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV id=div_qualitysheet>
+<DIV>
+<TABLE width="100%">
+<TBODY>
+<TR>
+<TD>
+<TABLE>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1.4px solid; BORDER-LEFT: #fff 1.4px solid; BORDER-TOP: #fff 1.4px solid; BORDER-RIGHT: #fff 1.4px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #4c6c9f; WIDTH: 500px; COLOR: #fff" class=style58 colSpan=6><SPAN>Frequency</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1.4px solid; BORDER-LEFT: #fff 1.4px solid; BORDER-TOP: #fff 1.4px solid; BORDER-RIGHT: #fff 1.4px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #4c6c9f; WIDTH: 500px; COLOR: #fff" class=style58 colSpan=6><SPAN>Dimensions</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1.4px solid; BORDER-LEFT: #fff 1.4px solid; BORDER-TOP: #fff 1.4px solid; BORDER-RIGHT: #fff 1.4px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #4c6c9f; WIDTH: 500px; COLOR: #fff" class=style58 colSpan=6><SPAN>Upper Specification</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1.4px solid; BORDER-LEFT: #fff 1.4px solid; BORDER-TOP: #fff 1.4px solid; BORDER-RIGHT: #fff 1.4px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #4c6c9f; WIDTH: 500px; COLOR: #fff" class=style58 colSpan=6><SPAN>Mean</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1.4px solid; BORDER-LEFT: #fff 1.4px solid; BORDER-TOP: #fff 1.4px solid; BORDER-RIGHT: #fff 1.4px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; BACKGROUND-COLOR: #4c6c9f; WIDTH: 500px; COLOR: #fff" class=style58 colSpan=6><SPAN>Lower Specification</SPAN> </TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE>
+<TBODY>
+<TR>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_0>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>100%</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>Ø31,021±0,009mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>31.03</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>31.021</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>31.012</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_1>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>100%</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>Ø31,021±0,009mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>31.03mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>31.021</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>31.012</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_2>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>100%</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>Ø17,549±0,009mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>17.558</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>17.549</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>17.54</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_3>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>100%</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>Ø17,549±0,009mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>17.558</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>17.549</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>17.54</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_4>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/5 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>Rp</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>3.2</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_5>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/5 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>Rp</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>3.2</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_6>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>100%</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_7>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/10 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>5µm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.005mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_8>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/10 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>5µm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.005mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_9>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>100%</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>4.5mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>4.58</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>4.5</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>4.48</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_10>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/5 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>Roughness</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1µm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_11>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/5 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>Roughness</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>3.2µm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_12>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/5 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>Roughness</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1µm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_13>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/5 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>Roughness</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>3.2µm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_14>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/15 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>Ø41.5mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>41.80mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>41.50mm</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>41.20mm</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_15>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/15 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>11.30mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>11.60mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>11.30mm</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>11.00mm</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_16>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/15 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>18.75mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>18.90mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>18.75mm</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>18.60mm</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_17>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/15 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>24.25mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>24.55mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>24.25mm</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>23.95mm</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_18>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>100%</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>4µm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>4µm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>2</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_19>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/15 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>40.8mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>41.00mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>40.8mm</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>40.6mm</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_20>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/15 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.9mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.9mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.6mm</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.3mm</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_21>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/15 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.5mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.7mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.5mm</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.3mm</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_22>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/10 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.020mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.020mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_23>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/10 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.020mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.020mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_24>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/5 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>7.00</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>7.150</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>7.00</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>6.950</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_25>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/5 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>59.5mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>59.57mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>59.5mm</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>59.43mm</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_26>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/15 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.2mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.2mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_27>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/15 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1.0mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1.5mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1.0</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.5</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_28>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/15 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1.0mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1.5mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1.0</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.5</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_29>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/15 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1.0mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1.5mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1.0</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.5</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_30>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>1/15 Parts</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1.0mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1.5mm</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>1.0</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>0.5</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_31>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>100%</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_32>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>100%</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN> </TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none">
+<DIV style="FLOAT: left" id=div_33>
+<TABLE style="BORDER-COLLAPSE: collapse" id=Maintable>
+<TBODY>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 14.5pt; COLOR: #fff" class=styleHDR><SPAN>100%</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN> </TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN></TD></TR>
+<TR style="BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND-COLOR: #4c6c9f; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid">
+<TD style="BORDER-BOTTOM: #fff 1.4px solid; TEXT-ALIGN: center; WIDTH: 200px; HEIGHT: 15pt; COLOR: #fff" class=styleHDR><SPAN>-</SPAN> </TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV id=div_headerlabel1>
+<DIV style="FLOAT: left">
+<TABLE style="BORDER-BOTTOM: black 0px solid; BORDER-LEFT: black 0px solid; BACKGROUND-COLOR: #eefaff; BORDER-COLLAPSE: collapse; BORDER-TOP: black 0px solid; BORDER-RIGHT: black 0px solid" id=tbleheader width="100%">
+<TBODY>
+<TR style="BACKGROUND-COLOR: #4c6c9f; HEIGHT: 30px">
+<TD style="TEXT-ALIGN: center; WIDTH: 100px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>DATE</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 100px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>PID</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 50px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>SHIFT</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 100px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>OPERATOR</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 50px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>Sl.No</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 100px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>HEAT CODE</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>MARPO 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>MARPO 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>MARPO 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>MARPO 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>ROUGH 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>ROUGH 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>VISUA 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>MAHR 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>MAHR 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>PLUG 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>ROUGH 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>ROUGH 2</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>ROUGH 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>ROUGH 2</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>CMM 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>PIN G 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>CMM 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>CMM 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>BORE 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>CMM 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>PROFI 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>PROFI 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>MAHR 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>MAHR 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>GO_NO 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>CMM 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>CMM 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>PROFI 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>PROFI 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>PROFI 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>PROFI 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>VISUA 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>VISUA 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 203px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>VISUA 1</SPAN></TD>
+<TD style="TEXT-ALIGN: center; WIDTH: 100px; HEIGHT: 10pt; COLOR: #fff; BORDER-RIGHT: #fff 1px solid" class=styleHDR><SPAN>Comments</SPAN></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV style="BACKGROUND-COLOR: #eefaff; MARGIN-TOP: -1px; FLOAT: left" id=div_lbl1>
+<DIV>
+<TABLE style="BORDER-BOTTOM: black 0px solid; BORDER-LEFT: black 0px solid; BACKGROUND-COLOR: #eefaff; BORDER-COLLAPSE: collapse; BORDER-TOP: black 0px solid; BORDER-RIGHT: black 0px solid" id=tb_label></TABLE></DIV></DIV>

@@ -1,0 +1,1424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="DBWIS" Class="QualitySheetdclassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=HOME-PC;Initial Catalog=DBWIS;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DBWISConnectionString11" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbl_Pages" Member="tbl_Pages">
+    <Type Name="tbl_Page">
+      <Column Name="Page_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Page_name" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="Page_Source" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EfficiencyReports" Member="EfficiencyReports">
+    <Type Name="EfficiencyReport">
+      <Column Name="EFID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Partno" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="Operation" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="EffDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="FromTo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="OperatorName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MinorStart" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="MinorEnd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="MinorTotal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="BottleNectStart" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="BottleNectEnd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="BottleNectTotal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Mainteance" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="LenchTea" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="NoPlan" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Manufacturing" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Meeting" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ShiftTime" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Setup" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ProdQty" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Rejection" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CMM" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="EqupStart" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="EqupEnd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="EqupTotal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="UnplannedStart" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="UnplannedEnd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="UnplannedTotal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="SetupStart" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="SetupEnd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="SetupTotal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="MaterialStart" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="MaterialEnd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="MaterialTotal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="StoragStart" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="StoragEnd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="StoragTotal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="NTplannedStart" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NTplannedEnd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NTplannedTotal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="QualityStart" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="QualityEnd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="QualityTotal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="UtileTime" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TT" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Plantclosing" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ToOpend" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="PlannedStop" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TrRequired" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="DownTimeLoss" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TfFunction" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TTtime" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="EntOperating" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Qloss" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TuUtile" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TRS" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TRG" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TotalStop" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="UtilTimeStop" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="PID" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Registration" Member="tbl_Registrations">
+    <Type Name="tbl_Registration">
+      <Column Name="Reg_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Reg_Username" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Reg_Userpassword" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Reg_Createdate" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Reg_Role" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="PID" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="Reg_Repassword" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TimeMaster" Member="TimeMasters">
+    <Type Name="TimeMaster">
+      <Column Name="ID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PartNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Operation" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BottleNecktime" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="tt" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_PartNo" Member="tbl_PartNos">
+    <Type Name="tbl_PartNo">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PartNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_Process" Member="tbl_Processes">
+    <Type Name="tbl_Process">
+      <Column Name="PID" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Process" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ofarticle_grid" Member="ofarticle_grids">
+    <Type Name="ofarticle_grid">
+      <Column Name="SNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FileUpload" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Processtble_grid" Member="Processtble_grids">
+    <Type Name="Processtble_grid">
+      <Column Name="SNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FileUpload" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.masterfile" Member="masterfiles">
+    <Type Name="masterfile">
+      <Column Name="mid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="partno" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="operation" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Actual_PrdQty" Member="Actual_PrdQties">
+    <Type Name="Actual_PrdQty">
+      <Column Name="AID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PartNo" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Process" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="FixedTime" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="ProducedQty" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="EntryTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CycleTimeEntry" Member="CycleTimeEntries">
+    <Type Name="CycleTimeEntry">
+      <Column Name="CID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CPartno" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CProcess" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CTime" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="CEntryTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Cseconds" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PlaneedEntryDetails" Member="PlaneedEntryDetails">
+    <Type Name="PlaneedEntryDetail">
+      <Column Name="PNO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PartNo" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Process" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Maintenace" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Cleaning" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="[Break]" Member="Break" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Noplan" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Trials" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Meetings" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Trainings" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Planedmaintenance" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EfficiencyCalculaus" Member="EfficiencyCalculaus">
+    <Type Name="EfficiencyCalculaus">
+      <Column Name="EFID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Partno" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="Operation" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="EffDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="FromTo" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="OperatorName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Mainteance" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Cleaning" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="[Break]" Member="Break" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Noplan" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Trials" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ShiftTime" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Meetings" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ProdQty" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Rejection" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CMM" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="SpeedType" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="SpeedStart" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="SpeedEnd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="SpeedTotal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="DowntimeType" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="DowntimeStart" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DowntimedEnd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DowntimeTotal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="UtileTime" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TT" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Plantclosing" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ToOpend" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="PlannedStop" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TrRequired" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="DownTimeLoss" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TfFunction" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TTtime" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="EntOperating" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Qloss" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TuUtile" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TRS" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TRG" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="TotalStop" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="UtilTimeStop" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="PIDNO" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="department" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Remarks" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Trainings" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="PlannedMaintenance" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="QualityIssues" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Reworks" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QSReportFile" Member="QSReportFiles">
+    <Type Name="QSReportFile">
+      <Column Name="Fileid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FUid" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FClient_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FAppendix_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FileName" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="FilePath" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Operator" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Product_PN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="PID_Text" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Operantion" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Machinename" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="machine_text" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Suppliername" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ProductPN" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QualitySheetA22916J" Member="QualitySheetA22916Js">
+    <Type Name="QualitySheetA22916J">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qsheetno" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QMG1Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG1Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QVernier1" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QVernier2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QVernier3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TolMin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QLCol2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QLCodeno" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QLCol3" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="QLCol4" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="Distrihole" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ODverniercaliper" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IDverniercaliper" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Pinhole" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Faceroughnessra" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Faceroughnessrz" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="heightguage" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Hvernier1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Prdn_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Prdn_Name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Chart_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CP" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPK" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Deviation" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Ranget" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qtime" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="AverageD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.qualityshtA44983U" Member="qualityshtA44983Us">
+    <Type Name="qualityshtA44983U">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qsheetno" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QMG1Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG1Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG4Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG4Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QVernier1" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="QVernier2" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="QVernier3" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="QVernier4" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TolMin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol2" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCodeno" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol3" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="QLCol4" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="Distrihole" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ODverniercaliper" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IDverniercaliper" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Pinhole" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Faceroughnessra" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Faceroughnessrz" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Prdn_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Prdn_Name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Chart_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CP" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPK" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Deviation" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Ranget" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qtime" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="AverageD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QSheetpolishingA44983U" Member="QSheetpolishingA44983Us">
+    <Type Name="QSheetpolishingA44983U">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qsheetno" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QMG1Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG1Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG4Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG4Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol3" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol4" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol5" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol6" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol7" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol8" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol9" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol10" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Prdn_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Prdn_Name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Chart_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CP" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPK" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Deviation" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Ranget" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Chart_Y_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qtime" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="AverageD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QRMaxCP1" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP5" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP6" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP7" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP8" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QSheetPolishingA44908N" Member="QSheetPolishingA44908Ns">
+    <Type Name="QSheetPolishingA44908N">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qsheetno" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QMG1Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG1Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol3" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol4" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol5" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol6" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol7" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol8" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Prdn_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Prdn_Name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Chart_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CP" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPK" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Deviation" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Ranget" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Chart_Y_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qtime" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="AverageD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QRMaxCP1" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP5" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP6" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QSheetpolishingA32271C" Member="QSheetpolishingA32271Cs">
+    <Type Name="QSheetpolishingA32271C">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qsheetno" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QMG1Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG1Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG4Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG4Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol3" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol4" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol5" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol6" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol7" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol8" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol9" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol10" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Prdn_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Prdn_Name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Chart_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CP" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPK" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Deviation" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Ranget" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Chart_Y_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qtime" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="AverageD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QRMaxCP1" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP5" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP6" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP7" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP8" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QSheetpolishingA22916J" Member="QSheetpolishingA22916Js">
+    <Type Name="QSheetpolishingA22916J">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qsheetno" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QMG1Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG1Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol3" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol4" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol5" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol6" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol7" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol8" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Prdn_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Prdn_Name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Chart_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CP" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPK" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Deviation" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Ranget" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Chart_Y_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qtime" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="AverageD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QRMaxCP1" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP5" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP6" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QSheetA44908N" Member="QSheetA44908Ns">
+    <Type Name="QSheetA44908N">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qsheetno" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QMG1Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG1Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QVernier1" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="QVernier2" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="QVernier3" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TolMin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol2" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCodeno" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol3" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="QLCol4" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="Distrihole" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ODverniercaliper" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IDverniercaliper" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Faceroughnessra" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Faceroughnessrz" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Hvernier1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Hvernier2" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Hvernier3" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Hvernier4" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Timingalot" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Hvernier5" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Hvernier6" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Hvernier7" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Prdn_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Prdn_Name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Chart_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CP" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPK" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Deviation" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Ranget" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qtime" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="AverageD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QSheetA32271C" Member="QSheetA32271Cs">
+    <Type Name="QSheetA32271C">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qsheetno" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QMG1Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG1Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG4Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG4Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QVernier1" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="QVernier2" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="QVernier3" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="QVernier4" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TolMin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol2" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCodeno" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol3" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="QLCol4" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="Distrihole" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ODverniercaliper" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IDverniercaliper" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Pinhole" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Faceroughnessra" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Faceroughnessrz" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="heightguage" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Hvernier1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Hvernier2" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Hvernier3" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Prdn_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Prdn_Name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Chart_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CP" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPK" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Deviation" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Ranget" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qtime" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="AverageD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.opt2QualitySheetA22916J" Member="opt2QualitySheetA22916Js">
+    <Type Name="opt2QualitySheetA22916J">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qsheetno" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QVernier1" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QVernier2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QVernier3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QLCol2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qtime" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Product_PN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.lappingQsheet24Q" Member="lappingQsheet24Qs">
+    <Type Name="lappingQsheet24Q">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qsheetno" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QLCol6" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QLCol5" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QLCol2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="Product_PN" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.laborefficiency" Member="laborefficiencies">
+    <Type Name="laborefficiency">
+      <Column Name="LID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LDate" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Lshift" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="earn_time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="actual_time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="total_time" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Lmonth" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Lday" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Lyear" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Lmonth_num" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Lweek" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QSheetPolishing24Q" Member="QSheetPolishing24Qs">
+    <Type Name="QSheetPolishing24Q">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qid_ref" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Qsheetno" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QMG1Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG1Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol3" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol4" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol5" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol6" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol7" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol8" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Prdn_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Prdn_Name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Chart_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CP" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPK" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Deviation" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Ranget" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Chart_Y_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qtime" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="AverageD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QRMaxCP1" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP4" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP5" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QRMaxCP6" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.opt2QSA17724Q" Member="opt2QSA17724Qs">
+    <Type Name="opt2QSA17724Q">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qsheetno" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QVernier1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QVernier2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QLCol2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qtime" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Product_PN" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QualitySheet" Member="QualitySheets">
+    <Type Name="QualitySheet">
+      <Column Name="QID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Qsheetno" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="QPIDNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QMG1Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG1Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG2Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QMG3Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="QVernier1" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="QVernier2" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="QVernier3" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CreatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TolMin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="QLCol1" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol2" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCodeno" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="QLCol3" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="QLCol4" Type="System.Decimal" DbType="Decimal(18,1)" CanBeNull="true" />
+      <Column Name="Distrihole" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ODverniercaliper" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IDverniercaliper" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Faceroughnessra" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Faceroughnessrz" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="heightguage" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Hvernier1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Hvernier2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Hvernier3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Comments" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Average" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Prdn_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Prdn_Name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Chart_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CP" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPK" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Deviation" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Ranget" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Max" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_Min" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="PID_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Shift" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Opertaor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qtime" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="rejectedQty" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="AverageD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="AverageD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_MeanD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_DeviationD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MaxD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_G_MinD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MaxD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_Y_MinD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD2" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Chart_CPKD3" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="MachineName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SupplierName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="Machine_txt" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cycletime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kanbaanNO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Qid_ref" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AbuToolFeedback" Member="AbuToolFeedbacks">
+    <Type Name="AbuToolFeedback">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ToolNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Station" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FeedBack" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ReTime" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Issued" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="NextDue" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Response" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="ReqDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ResDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LineMaster" Member="LineMasters">
+    <Type Name="LineMaster">
+      <Column Name="LID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LValue" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LText" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ToolVideofiles" Member="ToolVideofiles">
+    <Type Name="ToolVideofile">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FileName" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AbuToolMaster" Member="AbuToolMasters">
+    <Type Name="AbuToolMaster">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ToolNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Gfrom" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Gto" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Yfrom" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Yto" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Rfrom" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Rto" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Unit" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Line" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="RetensionTime" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Mail" Member="Mails">
+    <Type Name="Mail">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Port" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UnitMaster" Member="UnitMasters">
+    <Type Name="UnitMaster">
+      <Column Name="MID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MValue" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MText" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ToolTypeMaster" Member="ToolTypeMasters">
+    <Type Name="ToolTypeMaster">
+      <Column Name="TID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TValue" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TText" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SpareMaster" Member="SpareMasters">
+    <Type Name="SpareMaster">
+      <Column Name="SID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ToolNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Maximum" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Minimum" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TotalCount" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FixtureModel" Member="FixtureModels">
+    <Type Name="FixtureModel">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Mvalue" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Mtext" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Abu_Master" Member="Abu_Masters">
+    <Type Name="Abu_Master">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ToolNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Availability" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Station" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Photo" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Rentime" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Issuedon" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="StationQty" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Maintained" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Nextdueon" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="GreenFrom" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="GreenTo" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="YellowFrom" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="YellowTo" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RedFrom" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RedTo" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Spare" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="LifeExtend" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Rectified" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Others" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Premature" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToolStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Drawings" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="MailFlag" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LineMastermbu" Member="LineMastermbus">
+    <Type Name="LineMastermbu">
+      <Column Name="LID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LValue" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LText" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ToolTypeMastermbu" Member="ToolTypeMastermbus">
+    <Type Name="ToolTypeMastermbu">
+      <Column Name="TID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TValue" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TText" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UnitMastermbu" Member="UnitMastermbus">
+    <Type Name="UnitMastermbu">
+      <Column Name="MID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MValue" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MText" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SpareMastermbu" Member="SpareMastermbus">
+    <Type Name="SpareMastermbu">
+      <Column Name="SID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ToolNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Maximum" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Minimum" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TotalCount" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Partno" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MailAutorized" Member="MailAutorizeds">
+    <Type Name="MailAutorized">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MailID" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="unit" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Dynmaster" Member="Dynmasters">
+    <Type Name="Dynmaster">
+      <Column Name="DID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Partno" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Operation" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Unit" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Cell" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Instrument" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Int_count" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Int_range" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ShortName" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="CellValues" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="HeaderName" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Runchart" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="UCL" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="LCL" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="Runpercent" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FixtureName" Member="FixtureNames">
+    <Type Name="FixtureName">
+      <Column Name="FID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Fixturename" Member="Fixturename1" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Partnumber" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreationDate" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Unit" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Line" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Model" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Fixtrue" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Cell" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FixtureValues" Member="FixtureValues">
+    <Type Name="FixtureValue">
+      <Column Name="Fid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FixName" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Partno" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="FixLife" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Operation" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Gfrom" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Gto" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Yfrom" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Yto" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Rfrom" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Rto" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Creationdata" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="Flag" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="GreenRange" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="YellowRange" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="RedRange" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="GreenRange1" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="YellowRange1" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="RedRange1" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Availability" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="Imagefile" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="Drawing" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="FixID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="ModifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LifeExtend" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Fixtureclose" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DynmasterValues" Member="DynmasterValues">
+    <Type Name="DynmasterValue">
+      <Column Name="DVID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Partno" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Operation" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Unit" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Cell" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Instrument" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Int_count" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Int_Frequency" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Dimension" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="UpperValue" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MeanValue" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="LowerValue" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DynRefid" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ShortName" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Createdate" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Createdby" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

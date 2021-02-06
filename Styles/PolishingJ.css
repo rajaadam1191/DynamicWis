@@ -1,0 +1,240 @@
+﻿
+.birthday_title
+{
+ font-size:16px; 
+ color:#8b919d; 
+ font-weight:normal;
+ padding:0 0 10px 0;
+}
+ .birthday
+ {
+ font-size:12px;
+ color:#8b919d;
+ padding-top:10px;
+}
+ 
+.radio_button
+{
+ padding:10px 0 0 0;
+}
+ 
+  #wrap	
+  {
+	width:1140px; /* Spans the width of the page */
+	height: 52px; 
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+	position: relative; 
+	background-color: #315881;
+}
+	.navbar
+		{
+	height: 50px;
+        padding: 0;
+	margin: 0;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	border-right: 1px solid #FFFFFF; 
+	}
+	
+	.navbar li a
+	{
+		font-size:15px;
+	}
+ .navbar li 	{
+			height: auto;
+			width: 284.6px;  /* Each menu item is 150px wide */
+			float: left;  /* This lines up the menu items horizontally */
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+			padding: 0;
+			margin: 0;
+			background-color: #315881;
+                        }
+                        
+                        .navbar a	{							
+		padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+		border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color: white; /* Text color is white */
+		display: block;
+		}
+		.navbar li a:hover {background-color:#4c6c9f;} 
+		.navbar li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		}				
+
+.navbar li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                        }
+                         .navbar li ul li {background-color: #b9d2ef;}
+                         .navbar li ul li a 	{
+		padding: 5px 0;
+		font-size:12px;
+		color:#000;
+		text-align:center;
+		}
+				
+.navbar li ul li a:hover	
+{
+	 font-size:13px;
+	 font-weight:bold;
+	 background-color:#0b395c;
+	 color:#ffffff;}
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 #wrap1	
+  {
+	width: 1000px; /* Spans the width of the page */
+	height: 50px; 
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+	position: relative; 
+	background-color: #315881;
+}
+	.navbar1
+		{
+	height: 50px;
+        padding: 0;
+	margin: 0;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	border-right: 1px solid #FFFFFF; 
+	}
+	
+	.navbar1 li a
+	{
+		font-size:15px;
+	}
+ .navbar1 li 	{
+			height: auto;
+			width: 333px;  /* Each menu item is 150px wide */
+			float: left;  /* This lines up the menu items horizontally */
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+			padding: 0;
+			margin: 0;
+			background-color: #315881;
+                        }
+                        
+                        .navbar1 a	{							
+		padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+		border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color: white; /* Text color is white */
+		display: block;
+		}
+		.navbar1 li:hover, a:hover {background-color:#4c6c9f;} 
+		.navbar1 li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		}				
+
+.navbar1 li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                        }
+                         .navbar1 li ul li {background-color: #b9d2ef;}
+                         .navbar1 li ul li a 	{
+		padding: 5px 0;
+		font-size:12px;
+		color:#000;
+		text-align:center;
+		}
+				
+.navbar1 li ul li a:hover	
+{
+	 font-size:13px;
+	 font-weight:bold;
+	 background-color:#0b395c;
+	 color:#ffffff;}
+	 
+	 
+	 
+	 
+	 
+	 
+	  #wrap2	
+  {
+	width:94.5%; /* Spans the width of the page */
+	height: 50px; 
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+	position: relative; 
+	background-color: #315881;
+}
+	.navbar2
+		{
+	height: 50px;
+        padding: 0;
+	margin: 0;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	border-right: 1px solid #FFFFFF; 
+	}
+	
+	.navbar2 li a
+	{
+		font-size:15px;
+	}
+ .navbar2 li 	{
+			height: auto;
+			width:230.5px;  /* Each menu item is 150px wide */
+			float: left;  /* This lines up the menu items horizontally */
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+			padding: 0;
+			margin: 0;
+			background-color: #315881;
+                        }
+                        
+                        .navbar2 a	{							
+		padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+		border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color: white; /* Text color is white */
+		display: block;
+		}
+		.navbar2 li:hover, a:hover {background-color:#4c6c9f;} 
+		.navbar2 li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		}				
+
+.navbar2 li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                        }
+                         .navbar2 li ul li {background-color: #b9d2ef;}
+                         .navbar2 li ul li a 	{
+		padding: 5px 0;
+		font-size:12px;
+		color:#000;
+		text-align:center;
+		}
+				
+.navbar2 li ul li a:hover	
+{
+	 font-size:13px;
+	 font-weight:bold;
+	 background-color:#0b395c;
+	 color:#ffffff;}
+	 
+	 
+	 
+	 
+	 
+	 

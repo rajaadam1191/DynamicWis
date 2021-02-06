@@ -1,0 +1,679 @@
+﻿.font6
+	{color:black;
+	font-size:9.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial", serif;
+	}
+.font5
+	{color:black;
+	font-size:9.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial", serif;
+	}
+        .style1
+        {
+            height: 60.0pt;
+            width: 230pt;
+            color: white;
+            font-size: 11.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: center;
+            vertical-align: bottom;
+            white-space: nowrap;
+            border-left: 1.0pt solid windowtext;
+            border-right: .5pt solid windowtext;
+            border-top: 1.0pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+            
+        }
+        .style2
+        {
+            width: 635pt;
+            color: #0b7dc6;
+            font-size: 11.0pt;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: center;
+            vertical-align: bottom;
+            white-space: nowrap;
+            border-right-style: none;
+            border-right-color: white;
+            border-right-width: medium;
+        }
+        .style3
+        {
+            width: 169pt;
+            color: black;
+            font-size: 11.0pt;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: center;
+            vertical-align: top;
+            white-space: nowrap;
+            border-left: .5pt solid windowtext;
+            border-right: .5pt solid windowtext;
+            border-top: 1.0pt solid windowtext;
+        }
+        .style4
+        {
+            color: white;
+            font-size: 75px;
+            font-weight: 700;
+            Color: #0b7dc6;
+            text-decoration: none;
+            font-family: Arial, bold;
+            text-align: center;
+            vertical-align: middle;
+            white-space: nowrap;
+            border-left: .5pt solid windowtext;
+            border-right-style: none;
+            border-right-color: white;
+            border-right-width: medium;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+            
+        }
+        .style5
+        {
+            width: 169pt;
+            color: black;
+            font-size: 15px;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            height:84px;
+        }
+        .style6
+        {
+            height: 30.75pt;
+            width: 96pt;
+            color: black;
+            font-size: 12.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left: 1.0pt solid windowtext;
+            border-right: .5pt solid windowtext;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+         .style7
+        {
+            color: balck;
+            font-size: 11.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: left;
+            vertical-align: bottom;
+            white-space: nowrap;
+            border: .5pt solid windowtext;
+            padding: 0px;
+        }
+         .style8
+        {
+            color: black;
+            font-size: 11.0pt;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: general;
+            vertical-align: middle;
+            white-space: nowrap;
+            border: .5pt solid windowtext;
+            padding: 0px;
+        }
+        .style10
+        {
+            color: black;
+            font-size: 11.0pt;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: general;
+            vertical-align: middle;
+            white-space: nowrap;
+            border-left: .5pt solid windowtext;
+            border-right-style: none;
+            border-right-color: white;
+            border-right-width: medium;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+          .style11
+        {
+            width: 169pt;
+            color: balck;
+            font-size: 11.0pt;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            padding: 0px;
+            
+        }
+           .style12
+        {
+            height: 15.75pt;
+            color: black;
+            font-size: 11.0pt;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: nowrap;
+            border: .5pt solid windowtext;
+            margin-top:-3px;
+        }
+         .style13
+        {
+            color: black;
+            font-size: 12.0pt;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: right;
+            vertical-align: bottom;
+            white-space: nowrap;
+            border: .5pt solid windowtext;
+            text-align:left;
+            vertical-align:middle;
+            width: 130pt;
+        }
+        .style14
+        {
+            color: black;
+            font-size: 11.0pt;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: nowrap;
+            border: .5pt solid windowtext;
+            padding: 0px;
+        }
+        .style15
+        {
+            color: white;
+            font-size: 11.0pt;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: nowrap;
+            border-left: .5pt solid windowtext;
+            border-right-style: none;
+            border-right-color: white;
+            border-right-width: medium;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+         .style16
+        {
+            height: 39.75pt;
+            color: black;
+            font-size: 10.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left: 1.0pt solid windowtext;
+            border-right-style: none;
+            border-right-color: white;
+            border-right-width: medium;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+            width:150pt;
+        }
+         .style19
+        {
+            height: 14pt;
+            width: 20pt;
+            color: black;
+            font-size: 12.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left: 1.0pt solid windowtext;
+            border-right: .5pt solid windowtext;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+        .style20
+        {
+            color: black;
+            font-size: 12.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left: .5pt solid windowtext;
+            border-right: .5pt solid windowtext;            
+            padding: 0px;
+        }
+         .style21
+        {
+            height: 20.25pt;
+            width: 48pt;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left: 1.0pt solid windowtext;
+            border-right: .5pt solid windowtext;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+        .style22
+        {
+            width: 48pt;
+            color: Black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            padding: 0px;
+        }
+        .style221
+        {
+            width: 15pt;
+            color: Black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            height:15pt;
+        }
+        .style24
+        {
+            color: black;
+            width:3500pt;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left: .5pt solid windowtext;
+            border-right-style: none;
+            border-right-color: white;
+            border-right-width: medium;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+         .style25
+        {
+            width: 64pt;            
+            font-size: 15px;
+            Color: black;
+			height:17pt;
+            font-weight: 700;            
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            padding: 0px;
+        }
+         .style251
+        {
+            width: 15pt;            
+            font-size: 13px;
+            Color: black;
+			height:10pt;
+            font-weight: 700;            
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            height:18pt;
+        }
+         .style26
+        {
+            width: 20pt;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left-style: none;
+            border-left-color: white;
+            border-left-width: medium;
+            border-right: .5pt solid windowtext;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+        
+        .style261
+        {
+            width: 900pt;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left-style: none;
+            border-left-color: white;
+            border-left-width: medium;
+            border-right: .5pt solid windowtext;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+        .style27
+        {
+            height: 36.75pt;
+            width: 48pt;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left: 1.0pt solid windowtext;
+            border-right: .5pt solid windowtext;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+        .style28
+        {
+            width: 702pt;
+            color: black;
+            font-size: 10.0pt;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: none;
+            font-family: "Arial", Sans-Serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left: .5pt solid windowtext;
+            border-right: .5pt solid windowtext;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+         .style29
+        {
+            height: 21.0pt;
+            width: 48pt;
+            color: white;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            padding: 0px;
+        }
+         .style30
+        {
+            width: 341pt;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            padding: 0px;
+        }
+         .style31
+        {
+            width: 169pt;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            padding: 0px;
+        }
+        .style32
+        {
+            height: 33.75pt;
+            width: 48pt;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left: 1.0pt solid windowtext;
+            border-right: .5pt solid windowtext;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+        .style33
+        {
+        	height:10pt;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            padding: 0px;
+        }
+       
+        .style35
+        {
+            height: 28pt;
+            width: 48pt;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left: 1.0pt solid windowtext;
+            border-right: .5pt solid windowtext;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+         .style50
+        {
+            width:32.3pt;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            padding: 0px;
+            height:15pt;
+        }
+         .style55
+        {
+            width: 341pt;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            padding: 0px;
+        }
+         .style56
+        {
+            width: 100px;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: general;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            padding: 0px;
+        }
+        .style57
+        {
+            height: 33.75pt;
+            width: 65px;
+            color: black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border-left: 1.0pt solid windowtext;
+            border-right: .5pt solid windowtext;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            padding: 0px;
+        }
+         .style58
+        {
+            width: 65px;
+            color: Black;
+            font-size: 9.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Arial", serif;
+            text-align: center;
+            vertical-align: middle;
+            white-space: normal;
+            border: .5pt solid windowtext;
+            padding: 0px;
+        }
+        .style59
+        {
+            color: black;
+            font-size: 11.0pt;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: general;
+            vertical-align: middle;
+            white-space: nowrap;
+            border-left: .5pt solid windowtext;
+            border-right-style: none;
+            border-right-width: medium;
+            border-top: .5pt solid windowtext;
+            border-bottom: .5pt solid windowtext;
+            width: 45px;
+        }

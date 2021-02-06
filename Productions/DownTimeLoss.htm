@@ -1,0 +1,976 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DOWN TIME LOSS</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="../Styles/tabcontent.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/Usermenu.css" rel="stylesheet" type="text/css" />
+
+    <script src="../Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+    <script src="../JS/ErrorPOPup.js" type="text/javascript"></script>
+    <script src="../JS/tabcontent.js" type="text/javascript"></script>
+
+    <script src="../JS/menu_validate.js" type="text/javascript"></script>
+    <script src="../JS/EffienciencyCalculus.js" type="text/javascript"></script>
+
+    <script src="../JS/QualitySheetscript.js" type="text/javascript"></script>
+      <script type="text/javascript" language="javascript">
+        $(document).ready(function()
+        {
+            $('#txt_cmm').focus();
+        });
+    </script>
+
+    <style type="text/css">
+        #scroll
+        {
+            position:relative;
+            white-space: nowrap;
+            top: 2px;
+            left: 200px;
+        }
+        #oScroll
+        {
+            margin: 0px;
+            padding: 0px;
+            width: 200px;
+            height: 20px;
+            overflow: hidden;
+        }
+        .error
+        {
+            border:solid 1px red;
+        }
+        .opaqueLayer
+        {
+            display: none;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            opacity: 0.6;
+            filter: alpha(opacity=60);
+            background-color: #000000;
+            z-index: 800;
+        }
+        .questionLayer
+        {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 450px;
+            height:auto;
+            display: none;
+            z-index: 1001;
+            border: 2px solid black;
+            background-color: #FFFFFF;
+            text-align: center;
+            vertical-align: middle;
+            padding: 10px;
+        }
+    </style>
+
+<script type="text/javascript">
+function onlyNumbers(evt) {
+    var e = event || evt; // for trans-browser compatibility
+    var charCode = e.which || e.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57)&& charCode != 46)
+        return false;
+    return true;
+}
+</script>
+    <script type="text/javascript">
+        function scroll(oid,iid){
+            this.oCont=document.getElementById(oid)
+            this.ele=document.getElementById(iid)
+            this.width=this.ele.clientWidth;
+            this.n=this.oCont.clientWidth;
+            this.move=function(){
+                this.ele.style.left=this.n+"px"
+                this.n--
+                if(this.n<(-this.width)){this.n=this.oCont.clientWidth}
+            }
+        }
+        var vScroll
+        function setup(){
+            vScroll=new scroll("oScroll","scroll");
+            setInterval("vScroll.move()",50)
+        }
+        onload=function(){setup()}
+    </script>
+
+</head>
+<body style="background-color:#eefaff;">
+    <div align="center">
+        <div align="center">
+            <table>
+                <tr>
+                    <td>
+                        <div style="margin-left: -10px;">
+                            <div id="div_menu">
+                                <div style="margin-top: -8px;">
+                                    <table cellpadding="0px" cellspacing="0px" border="0px" align="center" width="99%"
+                                        style="height: 80%">
+                                        <tr>
+                                            <td width="283">
+                                                <div style="background-color: #315881; margin-left:10px;">
+                                                    <table>
+                                                        <tr>
+                                                            <td colspan="2">
+                                                                <div id="oScroll">
+                                                                    <div align="center" id="scroll">
+                                                                        <span id="sp_username" style="font-family: Verdana:Times New Roman; font-size: 20px;
+                                                                            color: #ffffff; font-style: italic;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="2" style="border-bottom: solid 1px #ffffff; width: 355px;">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <div align="center">
+                                                                    <span id="sp_logtimr" style="font-family: Verdana:Times New Roman; font-size: 15px;
+                                                                        color: #ffffff; font-style: italic;"></span>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <div align="center">
+                                                                    <span id="sp_logdate" style="font-family: Verdana:Times New Roman; font-size: 15px;
+                                                                        color: #ffffff; font-style: italic;"></span>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div id="div_user" style="display: none;">
+                                                    <div id="wrap">
+                                                        <ul class="navbar">
+                                                            <li style="width: 225px;"><a id="link_production_doc" href="../WorkInstruction/Userpage.aspx">
+                                                                PRODUCTION DOCUMENT</a> </li>
+                                                            <li style="width: 225px;"><a href="../DYNSheets/QualitySheet.aspx">PRODUCTION DATA</a>
+                                                            </li>
+                                                            <!-- <li><a id="link_productiondata1" href="#">PRODUCTION DATA</a>
+                                                              <!--<ul>
+                                    <li style="border-bottom: 1px solid #54879d;"><a href="../QualityGrid/ViewQChart.aspx">Operator QC Chart</a></li>
+                                   
+                                   
+                                </ul>
+                                                             </li>-->
+                                                            <li style="width: 225px;"><a id="link_dwntime1" href="#">DOWN TIME LOSS</a> </li>
+                                                            <!--<li style="width:225px;" id="link_Chart1"><a href="../DYNSheets/RunChart.aspx">Chart</a>
+                                    </li>-->
+                                                            <li style="width: 225px;"><a href="#">CHARTS</a>
+                                                                <ul>
+                                                                    <li style="width: 225px;"><a href="../DYNSheets/RunChart.aspx">RUN CHART</a> </li>
+                                                                    <li style="width: 225px;"><a href="../DYNSheets/SpcChart.aspx">SPC CHART</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li style="width: 225px;"><a href="#" onclick="javascript:exituser();">LOG OUT</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div id="super_admin" style="display: none;">
+                                                    <div id="wrap2">
+                                                        <ul class="navbar2">
+                                                            <li><a href="#">MASTER</a>
+                                                                <ul>
+                                                                    <li><a href="../Master/Process.aspx" id="link_process">PROCESS</a> </li>
+                                                                    <li><a href="../Master/PartNoMaster.aspx" id="link_part">PART NO</a></li>
+                                                                    <li><a href="../Master/PlannedStopEntry.aspx" id="link_planned"">PLANNED STOP ENTRY</a></li>
+                                                                    <li><a href="#" id="link_barcode">BARCODE TEMPLATE</a></li>
+                                                                    <li><a href="../Master/AddPages.aspx" id="link_addpages">ADD PAGES</a></li>
+                                                                    <li style="border-bottom: 1px solid #54879d;"><a href="~/Master/Time_Master.aspx"
+                                                                        id="link_time">TIME MASTER</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="#">PRODUCTION DOCUMENT</a>
+                                                                <ul>
+                                                                    <li><a href="#" id="link_work">WI UPLOAD</a></li>
+                                                                    <li><a href="#" id="link_userpage">USER PAGE</a></li>
+                                                                    <li><a href="#" id="link_register">REGISTRATION FORM</a></li>
+                                                                    <li style="border-bottom: 1px solid #54879d;"><a href="#" id="link_dmttemp">DMT TEMPLATE</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="#">PRODUCTION DATA</a>
+                                                                <ul>
+                                                                    <li><a href="../QualityGrid/QualityGrid.aspx" id="link_24q">A17724Q-Operation1</a></li>
+                                                                    <li><a href="../QualityGrid/opt2QSheetA17724Q.aspx" id="link_opt24">A17724Q-Operation2</a></li>
+                                                                    <li><a href="../QualityGrid/polishing24Q.aspx" id="link_laping24">A17724Q-lapping</a></li>
+                                                                    <li><a href="../QualityGrid/polishing24Q.aspx" id="link_poli24">A17724Q-polishing</a></li>
+                                                                    <li><a href="../QualityGrid/ViewQChart.aspx" id="link_chart">SPC Chart</a></li>
+                                                                    <li><a href="../QualityGrid/QSA22916J.aspx" id="link_6j">A22916J-Operation1</a>
+                                                                    </li>
+                                                                    <li><a href="../QualityGrid/opt2QSheetA22916J.aspx" id="link_opt2j">A22916J-Operation2</a></li>
+                                                                    <li><a href="../QualityGrid/polishingA22916J.aspx" id="link_poliJ">A22916J-polishing</a></li>
+                                                                    <li><a href="../QualityGrid/QualitySheetA32271C.aspx" id="link_1c">A32271C-Operation1</a></li>
+                                                                    <li><a href="../QualityGrid/polishingA32271C.aspx" id="link_polc">A32271C-Polishing</a></li>
+                                                                    <li><a href="../QualityGrid/QualitySheetA44908N.aspx" id="link_8n">A44908N-Operation1</a>
+                                                                    </li>
+                                                                    <li><a href="../QualityGrid/polishingA44908N.aspx" id="link_poln">A44908N-Polishing</a></li>
+                                                                    <li><a href="../QualityGrid/qualitysheetA44983u.aspx" id="link_3u">A44983U-Operation1</a></li>
+                                                                    <li style="border-bottom: 1px solid #54879d;"><a href="../QualityGrid/polishingA44983U.aspx"
+                                                                        id="link_polu">A44983U-Polishing</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="../Productions/Downtimeloss.aspx">DOWN TIME LOSS</a> </li>
+                                                            <li><a href="../Reports/ViewAllReports.aspx">REPORTS</a> </li>
+                                                            <li><a href="#" onclick="javascript:exituser();">LOG OUT</a> </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height: 5px;">
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div align="center" style="font-family: Arial; font-size: 15px; font-weight: bold;
+                            background-color: #315881; color: #ffffff; width: 308px; text-align:left;">
+                            WORKING TIME</div>
+                        <div>
+                            <table style="border: solid 1px #c3d3da; width:300px;background-color:White;">
+                                <tr>
+                                    <td>
+                                       
+                                        <div>
+                                            <table style="border: solid 1px #c3d3da; width: 300px;">
+                                                <tr style="height: 2px;">
+                                                    <td colspan="11">
+                                                    </td>
+                                                </tr>
+                                                <tr >
+                                                    <td class="tablabel" style="text-align:left;background-color:White;">
+                                                        <span>Part No</span>
+                                                    </td>
+                                                    
+                                                    <td style="text-align:left;background-color:#29d3d3;">
+                                                        <!-- <select id="ddl_partno" class="tabdropdown">-->
+                                                       <div> <span id="ddl_partno" class="downtimetext"></span></div>
+                                                        <!--<input type="text" id="ddl_partno" class="tabtextbox1" />-->
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    
+                                                    </td>
+                                                    </tr>
+                                                     <tr>
+                                                    <td class="tablabel" style="text-align:left;background-color:White;">
+                                                        <span>Operation</span>
+                                                    </td>
+                                                  <!--  <td style="text-align:left;">
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align:left;background-color:#29d3d3;" class="borderstyle">
+                                                        <!-- <select id="ddl_operation" class="tabdropdown" style="width: 212px;">
+                                                        </select>-->
+                                                         <span id="ddl_operation" class="downtimetext"></span>
+                                                        <!--<input type="text" id="ddl_operation" class="tabtextbox1" />-->
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td  colspan="2" class="borderstyle">
+                                                    </td>
+                                                    </tr>
+                                                      <tr>
+                                                    <td class="tablabel" style="text-align:left;background-color:White;">
+                                                        <span>Date </span>
+                                                    </td>
+                                                   <!-- <td align="left">
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align:left;background-color:#29d3d3;" class="borderstyle">
+                                                     <span id="txt_date" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_date" class="tabtextbox1" />-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tablabel" style="text-align:left; background-color:White;">
+                                                        <span>Shift</span>
+                                                    </td>
+                                                  <!--  <td style="text-align:left;">
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align:left; background-color:#29d3d3;" class="borderstyle">
+                                                    <span id="ddl_shift" class="downtimetext"></span>
+                                                        <!--<select id="ddl_shift" class="tabdropdown">
+                                                            <option value="0" selected="selected">-Select-</option>
+                                                            <option value="A">A</option>
+                                                            <option value="B">B</option>
+                                                            <option value="C">C</option>
+                                                            <option value="G">G</option>
+                                                            <option value="A1">A1</option>
+                                                            <option value="B1">B1</option>
+                                                        </select>-->
+                                                    </td>
+                                                    </tr>
+                                                 <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td class="tablabel" style="text-align:left; background-color:White;">
+                                                        <span>From</span> / <span>To</span>
+                                                    </td>
+                                                   <!-- <td style="text-align:left;">
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align:left;background-color:#29d3d3;" class="borderstyle">
+                                                     <span id="ddl_fromtime" class="downtimetext"></span>
+                                                        <!--<div style="margin-left: -2px;">
+                                                            <select style="width: 32px;" id="ddl_fromtime">
+                                                                <option value="12">12</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                                <option value="11">11</option>
+                                                                <option value="12">12</option>
+                                                            </select>
+                                                            <select style="width: 40px;" id="ddl_fromampm">
+                                                                <option value="am">am</option>
+                                                                <option value="pm">pm</option>
+                                                            </select>
+                                                            <span>To</span>
+                                                            <select style="width: 32px;" id="ddl_totime">
+                                                                <option value="12">12</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5">5</option>
+                                                                <option value="6">6</option>
+                                                                <option value="7">7</option>
+                                                                <option value="8">8</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                                <option value="11">11</option>
+                                                                <option value="12">12</option>
+                                                            </select>
+                                                            <select style="width: 40px;" id="ddl_toampm">
+                                                                <option value="pm">pm</option>
+                                                                <option value="am">am</option>
+                                                            </select>
+                                                        </div>-->
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td class="tablabel" style="text-align:left; background-color:White;">
+                                                        <span>Operator</span>
+                                                    </td>
+                                                   <!-- <td style="text-align:left;">
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align:left; background-color:#29d3d3;" class="borderstyle">
+                                                     <span id="txt_operatorname" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_operatorname" class="tabtextbox1" />-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tablabel" style="text-align:left; background-color:White;">
+                                                        <span>Machine</span>
+                                                    </td>
+                                                   <!-- <td style="text-align:left;">
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align:left; background-color:#29d3d3;">
+                                                     <span id="txt_machinename" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_machinename" class="tabtextbox1" />-->
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td class="tablabel" style="text-align:left; background-color:White; ">
+                                                        <span>Department</span>
+                                                    </td>
+                                                  <!--  <td style="text-align:left;">
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align:left; background-color:#29d3d3;" class="borderstyle">
+                                                     <span id="txt_dept" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_dept" class="tabtextbox1" />-->
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td class="tablabel" style="text-align:left; background-color:White;">
+                                                        <span>Unit</span>
+                                                    </td>
+                                                    <!--<td style="text-align:left;">
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align:left; background-color:#29d3d3;" class="borderstyle">
+                                                    <span id="txt_unit" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_unit" class="tabtextbox1" />-->
+                                                    </td>
+                                                </tr>
+                                                <tr style="height: 2px;">
+                                                    <td colspan="11">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <div align="center" style="font-family: Arial; font-size: 15px; font-weight: bold;
+                            background-color: #315881; color: #ffffff; width: 308px;text-align:left;">
+                            PLANNED STOP(Minutes)</div>
+                        <div>
+                            <table style="border: solid 1px #c3d3da; width: 300px;background-color:White;">
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <table style="border: solid 1px #c3d3da; width: 300px;">
+                                                <tr style="height: 2px;">
+                                                    <td colspan="">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tablabel" style="text-align: left;background-color:White;width:138px;">
+                                                        <span>Preventive Maintenance</span>
+                                                    </td>
+                                                  <!--  <td>
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align: left; background-color:#29d3d3; border:none;" colspan="1" rowspan="1">
+                                                    <span id="txt_pmaintenance" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_pmaintenance" class="tabtextbox1" />-->
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td class="tablabel" style="text-align: left;background-color:White;">
+                                                        <span>Cleaning</span>
+                                                    </td>
+                                                    <!--<td >
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align: left; background-color:#29d3d3;">
+                                                    <span id="txt_clean" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_clean" class="tabtextbox1" />-->
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td class="tablabel" style="text-align: left;background-color:White;">
+                                                        <span>Break</span>
+                                                    </td>
+                                                  <!--  <td>
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align: left; background-color:#29d3d3;">
+                                                    <span id="txt_break" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_break" class="tabtextbox1" />-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tablabel" style="text-align: left;background-color:White;">
+                                                        <span>No Plan/Demand</span>
+                                                    </td>
+                                                   <!-- <td>
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align: left; background-color:#29d3d3;">
+                                                    <span id="txt_demand" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_demand" class="tabtextbox1" />-->
+                                                    </td>
+                                                    </tr>
+                                                 <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td class="tablabel" style="text-align: left;background-color:White;">
+                                                        <span>Trials</span>
+                                                    </td>
+                                                   <!-- <td >
+                                                       
+                                                            :
+                                                    </td>-->
+                                                    <td style="text-align: left; background-color:#29d3d3;">
+                                                    <span id="txt_trails" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_trails" class="tabtextbox1" />-->
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td class="tablabel" style="text-align: left;background-color:White;">
+                                                        <span>Meetings</span>
+                                                    </td>
+                                                  <!--  <td>
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align: left;background-color:#29d3d3;">
+                                                    <span id="txt_meeting" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_meeting" class="tabtextbox1" />-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tablabel" style="text-align: left;background-color:White;">
+                                                        <span>Trainings</span>
+                                                    </td>
+                                                 <!--   <td>
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align: left;background-color:#29d3d3;">
+                                                    <span id="txt_trainig" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_trainig" class="tabtextbox1" />-->
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td class="tablabel" style="text-align: left;background-color:White;">
+                                                        <span>Planned Maintenance</span>
+                                                    </td>
+                                                  <!--  <td>
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align: left;background-color:#29d3d3;">
+                                                    <span id="txt_plnmaintenace" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_plnmaintenace" class="tabtextbox1" />-->
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td colspan="2" class="borderstyle">
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td class="tablabel" style="text-align: left;background-color:White;">
+                                                        <span>Shift(Hrs)</span>
+                                                    </td>
+                                                 <!--   <td>
+                                                        :
+                                                    </td>-->
+                                                    <td style="text-align: left;background-color:#29d3d3;">
+                                                    <span id="txt_shifthrs" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_shifthrs" class="tabtextbox1" />-->
+                                                    </td>
+                                                </tr>
+                                                <tr style="height: 2px;">
+                                                    <td colspan="2">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                 </table>
+        </div>
+                
+               <div  class="divQtyloss">
+               <table>
+               <tr>
+                    <td>
+                        <div align="center" style="font-family: Arial; font-size: 15px; font-weight: bold;
+                            background-color: #315881; color: #ffffff; width: 1010px; text-align: left;">
+                            <span>QUALITY LOSS</span>
+                        </div>
+                        <div>
+                            <table style="border: solid 1px #c3d3da; width: 1010px;background-color:White;height:80px;" >
+                                <tr>
+                                    <td>
+                                        <div style="margin-top:-20px;">
+                                            <table>
+                                                <tr style="height: 5px;">
+                                                    <td colspan="11">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tablabel">
+                                                        <span>Rejection Quantity</span>
+                                                    </td>
+                                                    <td>
+                                                        :
+                                                    </td>
+                                                    <td style="background-color:#29d3d3;width:86px;">
+                                                        <span id="txt_rejection" class="downtimetext" style="width: 150px;" ></span>
+                                                        <!--<input type="text" id="txt_rejection" class="tabtextbox1" />-->
+                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                    <td class="tablabel">
+                                                        <span>CMM.I.</span>
+                                                    </td>
+                                                    <td>
+                                                        :
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" id="txt_cmm" class="tabtextbox1" onkeypress="return onlyNumbers(this);"
+                                                            style="width: 160px;" onblur="javascript:validatecmm();"/>
+                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                    <td class="tablabel" class="tablabel">
+                                                        <span>Quality Issues</span>
+                                                    </td>
+                                                    <td>
+                                                        :
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" id="txt_qualityissues" class="tabtextbox1" onkeypress="return onlyNumbers(this);"
+                                                            style="width: 160px;" />
+                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                    <td class="tablabel">
+                                                        <span>Rework</span>
+                                                    </td>
+                                                    <td>
+                                                        :
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" id="txt_rework" class="tabtextbox1" onkeypress="return onlyNumbers(this);"
+                                                            style="width: 160px;" />
+                                                    </td>
+                                                </tr>
+                                                <tr style="height: 5px;">
+                                                    <td colspan="11">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                </table>
+               </div>
+               <div class="divdwntmeLoss">
+               <table>
+                <tr>
+                    <td>
+                        <div align="center" style="font-family: Arial; font-size: 15px; font-weight: bold;
+                            background-color: #315881; color: #ffffff; width: 1010px; text-align: left;">
+                            DOWN TIME LOSS</div>
+                        <div>
+                            <table style="border: solid 1px #c3d3da; background-color:White;width: 1000px;height:373px;">
+                                <tr>
+                                    <td>
+                                    <div style="margin-top:-180px;">
+                                        <div id="div_typeone">
+                                            <div >
+                                                <table>
+                                                    <tr style="height: 5px;">
+                                                        <td colspan="11">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <span class="tablabel">Type</span>
+                                                        </td>
+                                                        <td>
+                                                            :
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" id="txtdowntype" class="tabtextbox" style="width: 200px; height: 20px;"
+                                                                onchange="javascript:Downtimetype();" onkeypress="javascript:Downtimetype();"
+                                                                onblur="javascript:validate_downend();" />
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                        <td class="tablabel" style="width:180px;">
+                                                            <span>Start Time</span>
+                                                        </td>
+                                                        <td >
+                                                            :
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" id="txtdownstart" class="tabtextbox1" onchange="javascript:getfromtime(this.id);"
+                                                                onkeypress="javascript:getfromtime(this.id);" style="width: 60px; height: 20px;" />
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                        <td class="tablabel" style="width:150px;">
+                                                            <span>End Time</span>
+                                                        </td>
+                                                        <td>
+                                                            :
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" id="txtdownend" class="tabtextbox1" onchange="javascript:gettotime('txtdownstart','txtdownend','txtdowntotal');"
+                                                                onkeypress="javascript:gettotime('txtdownstart','txtdownend','txtdowntotal');"
+                                                                onclick="javascript:startime1();" onblur="javascript:validate_downend();" style="width: 60px;
+                                                                height: 20px;" />
+                                                        </td>
+                                                        <td style="width: 20px;">
+                                                        </td>
+                                                        <td class="tablabel">
+                                                            Total
+                                                        </td>
+                                                        <td style="padding-left: 5px;">
+                                                            :
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" id="txtdowntotal" class="tabtextbox1" style="width: 60px; height: 20px;" />
+                                                        </td>
+                                                        <td style="width: 20px;">
+                                                        </td>
+                                                        <td>
+                                                            <span class="tablabel">Remarks</span>
+                                                        </td>
+                                                        <td >
+                                                            :
+                                                        </td>
+                                                        <td>
+                                                            <textarea id="txt_remarks" class="tabtextbox" style="width: 200px; height: 20px;"></textarea>
+                                                        </td>
+                                                        <td valign="bottom">
+                                                            <div style="float: right; cursor: pointer;" id="div_addone">
+                                                                <img src="../Menu_image/add.png" alt="" /> </div>
+                                                        </td>
+                                                    </tr>
+                                                     <tr style="height: 5px;">
+                                                        <td colspan="11">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                          
+                                           
+                                        </div>
+                                        <div align="center" id="div_down" >
+                                            <table id="tbl_downtimeloss" style="border: solid 1px gray; width:1002px;" cellspacing="0">
+                                                <tr>
+                                                    <td style="width:200px; text-align:center;">
+                                                        <b>Type</b>
+                                                    </td>
+                                                    <td style="text-align:center;">
+                                                        <b>Start Time</b>
+                                                    </td>
+                                                    <td style="text-align:center;">
+                                                        <b>End Time</b>
+                                                    </td>
+                                                     <td style="text-align:center;">
+                                                        <b>Total</b>
+                                                    </td>
+                                                    <td style="text-align:center;">
+                                                        <b>Remarks</b>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="5" style="border-bottom:solid gray 1px; "></td>
+                                                </tr>
+                                               
+                                            </table>
+                                        </div>
+                                       
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                </table>
+                </div>
+                  <div class="divdwntmeresult">
+            <table>
+                <tr>
+                    <td>
+                        <div align="center" style="font-family: Arial; font-size: 15px; font-weight: bold;
+                            background-color: #315881; color: #ffffff; width: 1010px; text-align: left;">
+                            RESULTS</div>
+                        <div>
+                            <table style="border: solid 1px #c3d3da; width: 1010px; background-color: White;
+                                height: 77px;">
+                                <tr>
+                                    <td>
+                                        <div>
+                                            <table>
+                                                <tr style="height: 5px;">
+                                                    <td colspan="2">
+                                                    </td>
+                                                </tr>
+                                                <tr style="height: 10px;">
+                                                    <td class="tablabel" style="font-size:12px;">
+                                                        <span>Produced Quantity</span>
+                                                    </td>
+                                                    <td>
+                                                        :
+                                                    </td>
+                                                    <td style="background-color: #29d3d3; width: 100px;">
+                                                        <span id="txt_prodqty" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_prodqty" class="tabtextbox1" />-->
+                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                    <td class="tablabel"  style="font-size:12px;">
+                                                        <span>Utill Time</span>
+                                                    </td>
+                                                    <td>
+                                                        :
+                                                    </td>
+                                                    <td style="background-color: #29d3d3; width: 100px;">
+                                                        <span id="txt_utiltime" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_utiltime" class="tabtextbox1" />-->
+                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                    <td class="tablabel"  style="font-size:12px;">
+                                                        <span>Available Time</span>
+                                                    </td>
+                                                    <td>
+                                                        :
+                                                    </td>
+                                                    <td style="background-color: #29d3d3; width: 100px;">
+                                                        <span id="txt_availabletime" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_availabletime" class="tabtextbox1" disabled="disabled" />-->
+                                                    </td>
+                                                    <td>
+                                                    </td>
+                                                    <td>
+                                                        <span class="tablabel"  style="font-size:12px;">Balance Time</span>
+                                                    </td>
+                                                    <td>
+                                                        :
+                                                    </td>
+                                                    <td style="background-color: #29d3d3; width: 100px;">
+                                                        <span id="txt_speedtotal" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_speedtotal" class="tabtextbox1" style="" readonly="readonly" />-->
+                                                    </td>
+                                                     <td>
+                                                    </td>
+                                                    <td>
+                                                        <span class="tablabel"  style="font-size:12px;">Speed Loss</span>
+                                                    </td>
+                                                    <td>
+                                                        :
+                                                    </td>
+                                                    <td style="background-color: #29d3d3; width: 100px;">
+                                                        <span id="spn_totalspeed" class="downtimetext"></span>
+                                                        <!--<input type="text" id="txt_speedtotal" class="tabtextbox1" style="" readonly="readonly" />-->
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="height: 10px;">
+                                    <td colspan="11">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+                 <div>
+               <table>
+                <tr>
+                    <td>
+                        <div style="padding-left:1250px;" align="right" id="div_save">
+                           <!-- <img src="../Menu_image/Save.jpg" alt="" id="btn_save" style="cursor: pointer;" visible="false" />-->
+                        </div>
+                        <div align="center" id="div_process" style="display: none;">
+                            <span style="color: Red; font-size: 14px; font-family: Arial;">Processing ...</span>
+                        </div>
+                    </td>
+                </tr>
+                  </table>
+                </div>
+        
+        <div>
+            <div id="shadow" class="opaqueLayer">
+        </div>
+        <div id="question" class="questionLayer">
+           <div id="div_closepage" style="float:right; margin-top:-8px; margin-right:-8px;"><span style="color:Blue; font-family:Arial;font-size:12px; cursor:pointer;">Close</span></div>
+
+            <div id="div_errro">
+            </div>
+        </div>
+    </div>
+        <input type="hidden" id="hdn_tt" name="hdn_tt" />
+        <input type="hidden" id="hdn_plannedstop" name="hdn_plannedstop" />
+        <input type="hidden" id="hdn_toOpen" name="hdn_toOpen" />
+        <input type="hidden" id="hdn_plannedclosing" name="hdn_plannedclosing" />
+        <input type="hidden" id="hdn_TRrequired" name="hdn_TRrequired" />
+        <input type="hidden" id="hdn_downtimeloass" name="hdn_TRrequired" />
+        <input type="hidden" id="hdn_part" name="hdn_part" />
+        <input type="hidden" id="hdn_process" name="hdn_process" />
+        <input type="hidden" id="hdn_shift" name="hdn_shift" />
+        <input type="hidden" id="hdn_machine" name="hdn_machine" />
+           <input type="hidden" id="hdn_pidno" name="hdn_pidno" />
+            <input type="hidden" id="hdn_page" name="hdn_page" />
+             <input type="hidden" id="hdn_unit" name="hdn_unit" />
+    </div>
+</body>
+</html>

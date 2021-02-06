@@ -1,0 +1,11 @@
+﻿01/21/2017 16:02 REQUEST URL: http://localhost:12357/DynamicWIS - Jan 12_Live Pack(Jan 21 2017)/default.aspx Begin Time: 01/21/2017 16:02 End Time: 01/21/2017 16:02 Execution Time: 00:00:01.4640073
+01/21/2017 16:02 REQUEST URL: http://localhost:12357/DynamicWIS - Jan 12_Live Pack(Jan 21 2017)/default.aspx Begin Time: 01/21/2017 16:02 End Time: 01/21/2017 16:02 Execution Time: 00:00:00
+01/21/2017 16:02 REQUEST URL: http://localhost:12357/DynamicWIS - Jan 12_Live Pack(Jan 21 2017)/Menu_image/PH-logo-1.jpg Begin Time: 01/21/2017 16:02 End Time: 01/21/2017 16:02 Execution Time: 00:00:00.0600001
+01/21/2017 16:03 REQUEST URL: http://localhost:12357/DynamicWIS - Jan 12_Live Pack(Jan 21 2017)/Home.aspx Begin Time: 01/21/2017 16:03 End Time: 01/21/2017 16:03 Execution Time: 00:00:00.5120019
+01/21/2017 16:03 REQUEST URL: http://localhost:12357/DynamicWIS - Jan 12_Live Pack(Jan 21 2017)/Styles/CSS.css Begin Time: 01/21/2017 16:03 End Time: 01/21/2017 16:03 Execution Time: 00:00:00
+01/21/2017 16:03 REQUEST URL: http://localhost:12357/DynamicWIS - Jan 12_Live Pack(Jan 21 2017)/JS/Common.js Begin Time: 01/21/2017 16:03 End Time: 01/21/2017 16:03 Execution Time: 00:00:00.1300002
+01/21/2017 16:03 REQUEST URL: http://localhost:12357/DynamicWIS - Jan 12_Live Pack(Jan 21 2017)/Menu_image/loginb1.png Begin Time: 01/21/2017 16:03 End Time: 01/21/2017 16:03 Execution Time: 00:00:00
+01/21/2017 16:03 REQUEST URL: http://localhost:12357/DynamicWIS - Jan 12_Live Pack(Jan 21 2017)/Menu_image/loginb2.png Begin Time: 01/21/2017 16:03 End Time: 01/21/2017 16:03 Execution Time: 00:00:00.0200000
+01/21/2017 16:03 REQUEST URL: http://localhost:12357/DynamicWIS - Jan 12_Live Pack(Jan 21 2017)/Scripts/jquery-1.7.1.min.js Begin Time: 01/21/2017 16:03 End Time: 01/21/2017 16:03 Execution Time: 00:00:00.1000002
+01/21/2017 16:03 REQUEST URL: http://localhost:12357/DynamicWIS - Jan 12_Live Pack(Jan 21 2017)/Menu_image/login.png Begin Time: 01/21/2017 16:03 End Time: 01/21/2017 16:03 Execution Time: 00:00:00.0700001
+01/21/2017 16:03 REQUEST URL: http://localhost:12357/DynamicWIS - Jan 12_Live Pack(Jan 21 2017)/Images/right.png Begin Time: 01/21/2017 16:03 End Time: 01/21/2017 16:03 Execution Time: 00:00:00.0300001

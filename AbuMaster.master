@@ -1,0 +1,332 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AbuMaster.master.cs" Inherits="AbuMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>PH WORK INSTRUCTION</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <link href="Styles/QualityStyle.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Usermenu.css" rel="stylesheet" type="text/css" />
+    <link href="/Styles/QualityStyle.css" rel="stylesheet" type="text/css" />
+    <link href="/Chartdate/jquery.datepick.css" rel="stylesheet" type="text/css" />
+
+    <script src="Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+    <script src="/JS/masterfile.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+    <script src="JS/jquery.easing.1.3.js" type="text/javascript"></script>
+
+    <script src="/JS/QualitySheetscript.js" type="text/javascript"></script>
+
+    <script src="JS/Mc_report.js" type="text/javascript"></script>
+
+    <script src="/Chartdate/jquery.datepick.js" type="text/javascript"></script>
+
+    <script src="JS/Common.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        function scroll(oid,iid){
+            this.oCont=document.getElementById(oid)
+            this.ele=document.getElementById(iid)
+            this.width=this.ele.clientWidth;
+            this.n=this.oCont.clientWidth;
+            this.move=function(){
+                this.ele.style.left=this.n+"px"
+                this.n--
+                if(this.n<(-this.width)){this.n=this.oCont.clientWidth}
+            }
+        }
+        var vScroll
+        function setup(){
+            vScroll=new scroll("oScroll","scroll");
+            setInterval("vScroll.move()",50)
+        }
+        onload=function(){setup()}
+    </script>
+
+    <script type="text/javascript">
+            $(function() {
+                $('#sdt_menu > li').bind('mouseenter',function(){
+					var $elem = $(this);
+					$elem.find('img')
+						 .stop(true)
+						 .animate({
+							'width':'168px',
+							'height':'60px',
+							'left':'0px'
+						 },400,'easeOutBack')
+						 .andSelf()
+						 .find('.sdt_wrap')
+					     .stop(true)
+						 .animate({'top':'60px'},500,'easeOutBack')
+						 .andSelf()
+						 .find('.sdt_active')
+					     .stop(true)
+						 .animate({'height':'45px'},300,function(){
+						var $sub_menu = $elem.find('.sdt_box');
+						if($sub_menu.length){
+							var left = '170px';
+							if($elem.parent().children().length == $elem.index()+1)
+								left = '-170px';
+							$sub_menu.show().animate({'left':left},200);
+						}	
+					});
+				}).bind('mouseleave',function(){
+					var $elem = $(this);
+					var $sub_menu = $elem.find('.sdt_box');
+					if($sub_menu.length)
+						$sub_menu.hide().css('left','0px');
+					
+					$elem.find('.sdt_active')
+						 .stop(true)
+						 .animate({'height':'0px'},300)
+						 .andSelf().find('img')
+						 .stop(true)
+						 .animate({
+							'width':'0px',
+							'height':'0px',
+							'left':'85px'},400)
+						 .andSelf()
+						 .find('.sdt_wrap')
+						 .stop(true)
+						 .animate({'top':'15px'},500);
+				});
+            });
+    </script>
+
+    <style type="text/css">
+        #scroll
+        {
+            position: relative;
+            white-space: nowrap;
+            top: 2px;
+            left: 200px;
+        }
+        #oScroll
+        {
+            margin: 0px;
+            padding: 0px;
+            width: 200px;
+            height: 20px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body style="background-color: #1f497d;">
+    <form id="form1" runat="server">
+    <div>
+        <table cellpadding="0px" cellspacing="0px" border="0px" align="center" width="99%"
+            style="height: 80%">
+            <tr>
+                <td width="283">
+                    <div style="background-color: #315881; margin-left: -5px;">
+                        <table>
+                            <tr>
+                                <td colspan="2">
+                                    <div id="oScroll">
+                                        <div align="center" id="scroll">
+                                            <span id="sp_username" runat="server" style="font-family: Verdana:Times New Roman;
+                                                font-size: 20px; color: #ffffff; font-style: italic;"></span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="border-bottom: solid 1px #ffffff; width: 355px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div align="center">
+                                        <span id="sp_logtimr" runat="server" style="font-family: Verdana:Times New Roman;
+                                            font-size: 15px; color: #ffffff; font-style: italic;"></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div align="center">
+                                        <span id="sp_logdate" runat="server" style="font-family: Verdana:Times New Roman;
+                                            font-size: 15px; color: #ffffff; font-style: italic;"></span>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td>
+                    <div id="div_user" runat="server">
+                        <div id="wrap">
+                            <ul class="navbar">
+                                <li><a href="/ABU/AbuUser.aspx">ABU TOOLS VIEW</a> </li>
+                                <li><a href="#" runat="server"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#" onclick="javascript:exituser();">LOG OUT</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="div_admin" runat="server">
+                        <div id="wrap1">
+                            <ul class="navbar1">
+                                <li><a href="#">MASTER</a>
+                                    <ul>
+                                        <li><a href="/ABU/Master.aspx">UNIT MASTER</a></li>
+                                        <li><a href="/ABU/ToolTypeMaster.aspx">TYPE MASTER</a></li>
+                                        <li><a href="/ABU/ToolLineMaster.aspx">LINE MASTER</a></li>
+                                        <li><a href="/ABU/ToolMAster.aspx">TOOL MASTER</a></li>
+                                        <li><a href="/ABU/SpareMAster.aspx">SPARE MASTER</a></li>
+                                        <li><a href="/ABU/Videos.aspx">VIDEO FILE</a></li>
+                                         <li><a href="/ABU/MailAddress.aspx">MAIL ASSIGN</a></li>
+                                        <li><a href="/ABU/MailFormat.aspx">MAIL</a></li>
+                                        <li style="border-bottom: 1px solid #54879d;"><a href="/ABU/AbuMaster.aspx">TOOL ASSIGN</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">TOOL HISTORY</a><ul>
+                                    <li><a href="/ABU/ToolHistory.aspx">TOOL HISTORY</a></li>
+                                    <li><a href="/ABU/ToolFeedBack.aspx">TOOL FEEDBACK</a></li>
+                                    <li><a href="/ABU/FeedBackReport.aspx">FEEDBACK REPORT</a></li>
+                                    <li><a href="/ABU/SpareReport.aspx">SPARE REPORT</a></li>
+                                    <li style="border-bottom: 1px solid #54879d;"><a href="/ABU/ToolChange.aspx">TOOL CHANGE
+                                        </a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#" onclick="javascript:exituser();">LOG OUT</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="super_admin" runat="server">
+                        <div id="wrap2">
+                            <ul class="navbar2">
+                                <%--<li> <a href="#">MASTER</a>
+                                    <ul>
+                                    <li><a href="/Fixture/UnitMaster.aspx">UNIT MASTER</a></li>
+                                    <li><a href="/Fixture/TypeMaster.aspx">TYPE MASTER</a></li>
+                                    <li><a href="/Fixture/LineMaster.aspx">LINE MASTER</a></li>
+                                    <li><a href="/Fixture/SpareMaster.aspx">SPARE MASTER</a></li>
+                                    <li><a href="/Fixture/ModelMaster.aspx">MODEL MASTER</a></li>
+                                        <li><a href="/Master/Process.aspx">FILE UPLOAD</a> </li>
+                                        <li>
+                                            <%--<a href="/Master/PartNoMaster.aspx">OFARTICLES </a></li>
+                                        <li><a href="/Master/PlannedStopEntry.aspx">PLANNED STOP ENTRY</a></li>
+                                        <li><a href="/Master/BarcodeTemplate.aspx">BARCODE TEMPLATE</a></li>
+                                        <li><a href="/Master/DowntimeTemplate.aspx">DOWNTIMELOSS TEMPLATE</a></li>
+                                        <%--<li><a href="/Master/SpeedLossTemplate.aspx">SPEEDLOSS TEMPLATE</a></li>
+                                        <li><a href="/Master/MasterFile.aspx">CYCLE TIME ENTRY</a></li>
+                                        <li><a href="/Master/LaborEfficiency.aspx">LABOR EFFICIENCY</a></li>
+                                        <li>
+                                            <%--<a href="/Master/Time_Master.aspx">TIME MASTER</a></li>
+                                        <li><a href="/Master/ActualTimeEntry.aspx">ADD FIXED TIME</a></li>
+                                        <%--<li style="border-bottom: 1px solid #54879d;"><a href="/Master/FixtureValues.aspx">
+                                            ADD FIXTURE VALUES</a></li>
+                                            <li><a href="/Fixture/FixtureName.aspx">ADD FIXTURE NAME</a></li>
+                                        <li><a href="/Fixture/FixtureValues.aspx">ADD FIXTURE VALUES</a></li>
+                                        <li><a href="/Master/DYNMaster.aspx">ADD DYNAMIC MASTER</a></li>
+                                        <li style="border-bottom: 1px solid #54879d;"><a href="/Master/DYNValues.aspx">ADD
+                                            DYNAMIC VALUES</a></li>
+                                    </ul>
+                                </li>--%>
+                                <li><a href="#">PRODUCTION DOCUMENT</a>
+                                    <ul>
+                                        <li><a href="/Master/Process.aspx" id="A1">FILE UPLOAD</a> </li>
+                                        <li><a href="/WorkInstruction/Workinstruction.aspx">PD UPLOAD</a></li>
+                                        <li><a href="/WorkInstruction/Userpage.aspx">PD VIEW</a></li>
+                                        <li><a href="/WorkInstruction/RegisrationFrm.aspx">REGISTRATION FORM</a></li>
+                                        <li style="border-bottom: 1px solid #54879d;"><a href="/WorkInstruction/DMTTemplate.aspx">
+                                            DMT TEMPLATE</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">PLANT EFFICIENCY</a>
+                                    <ul>
+                                        <li><a href="/Master/PlannedStopEntry.aspx" id="link_planned">PLANNED STOP ENTRY</a></li>
+                                        <li><a href="/Master/BarcodeTemplate.aspx" id="link_barcode">BARCODE TEMPLATE</a></li>
+                                        <li><a href="/Master/DowntimeTemplate.aspx">DOWNTIMELOSS TEMPLATE</a></li>
+                                        <li><a href="/Master/MasterFile.aspx">CYCLE TIME ENTRY</a></li>
+                                        <li><a href="/Master/LaborEfficiency.aspx">LABOR EFFICIENCY</a></li>
+                                        <li style="border-bottom: 1px solid #54879d;"><a href="/Master/ActualTimeEntry.aspx">
+                                            ADD FIXED TIME</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">DYNAMIC QS CREATION</a>
+                                    <ul>
+                                        <li><a href="/Master/DYNMaster.aspx">ADD DYNAMIC MASTER</a></li>
+                                        <li style="width:210px;"><a href="/Master/DYNValues.aspx">ADD DYNAMIC VALUES</a></li>
+                                        <li style="border-bottom: 1px solid #54879d;width:210px;"><a href="/Master/DynMasterDel.aspx">DELETE QUALITY SHEET</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">FIXTURE</a>
+                                    <ul>
+                                        <li><a href="/Fixture/UnitMaster.aspx">UNIT MASTER</a></li>
+                                        <li><a href="/Fixture/TypeMaster.aspx">TYPE MASTER</a></li>
+                                        <li><a href="/Fixture/LineMaster.aspx">LINE MASTER</a></li>
+                                        <li><a href="/Fixture/SpareMaster.aspx">SPARE MASTER</a></li>
+                                        <li><a href="/Fixture/ModelMaster.aspx">MODEL MASTER</a></li>
+                                        <li><a href="/Fixture/FixtureName.aspx">FIXTURE CREATION</a></li>
+                                        <li style="border-bottom: 1px solid #54879d;"><a href="/Fixture/FixtureValues.aspx">
+                                            FIXTURE ASSIGNING</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">PRODUCTION DATA</a>
+                                    <ul>
+                                        <li><a href="/QualityGrid/QualityGrid.aspx">A17724Q-Operation1</a></li>
+                                        <li><a href="/QualityGrid/opt2QSheetA17724Q.aspx">A17724Q-Operation2</a></li>
+                                        <li><a href="/QualityGrid/lapping24Q.aspx">A17724Q-lapping</a></li>
+                                        <li><a href="/QualityGrid/polishing24Q.aspx">A17724Q-polishing</a></li>
+                                        <li><a href="/QualityGrid/QSA22916J.aspx">A22916J-Operation1</a> </li>
+                                        <li><a href="/QualityGrid/opt2QSheetA22916J.aspx">A22916J-Operation2</a></li>
+                                        <li><a href="/QualityGrid/polishingA22916J.aspx">A22916J-polishing</a></li>
+                                        <li><a href="/QualityGrid/QualitySheetA32271C.aspx">A32271C-Operation1</a></li>
+                                        <li><a href="/QualityGrid/polishingA32271C.aspx">A32271C-Polishing</a></li>
+                                        <li><a href="/QualityGrid/QualitySheetA44908N.aspx">A44908N-Operation1</a> </li>
+                                        <li><a href="/QualityGrid/polishingA44908N.aspx">A44908N-Polishing</a></li>
+                                        <li><a href="/QualityGrid/qualitysheetA44983u.aspx">A44983U-Operation1</a></li>
+                                        <li style="border-bottom: 1px solid #54879d;"><a href="/QualityGrid/polishingA44983U.aspx">
+                                            A44983U-Polishing</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">REPORT</a>
+                                    <ul>
+                                        <li><a href="/Reports/ViewAllReports.aspx">ALL REPORT</a></li>
+                                        <li><a href="/QualityGrid/ViewQCSheetReports.aspx">VIEW QC REPORT</a></li>
+                                        <li><a href="/Reports/Defaultchart.aspx">PLANT EFFICIENCY</a></li>
+                                        <li><a href="/Reports/MC_REPORT.aspx">PLANT OEE/LET</a></li>
+                                        <li><a href="/Reports/FixtureReport.aspx">FIXTURE REPORT</a></li>
+                                        <li><a href="/Reports/FixtureChange.aspx">FIXTURE CHANGE</a></li>
+                                        <li><a href="/Reports/FeedBack_reports1.aspx">FEEDBACK REPORT</a></li>
+                                        <li style="border-bottom: 1px solid #54879d;"><a href="/Reports/FeedBack_reports.aspx">
+                                            FEEDBACK TREND</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" onclick="javascript:exituser();">LOG OUT</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div style="margin-top: 0px; margin-left: 10px; float: left;">
+        <img src="/Menu_image/poclainlogo.png" alt="" />
+    </div>
+    <div style="margin-top: 0px; margin-right: 10px; float: right;">
+        <img src="/Menu_image/TLM-Logo.png" alt="" />
+    </div>
+    <br />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
